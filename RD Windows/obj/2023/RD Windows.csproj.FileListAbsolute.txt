@@ -1,0 +1,10 @@
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\RD Windows.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\Fonts.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\Colors.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\Styles\Window.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\Views\FamilyBasePointForm.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\Views\ReportForm.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\Views\ResultForm.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\GeneratedInternalTypeHelper.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\RD Windows_MarkupCompile.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2023\RD Windows_MarkupCompile.lref

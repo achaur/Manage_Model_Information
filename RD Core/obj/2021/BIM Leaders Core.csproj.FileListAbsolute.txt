@@ -1,0 +1,7 @@
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Core\obj\2021\BIM Leaders Core.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Core\obj\2021\BIM Leaders Core.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\Output\2021\BIM Leaders Core.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders\Output\2021\BIM Leaders Core.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Core\obj\2021\BIM Leaders Core.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Core\obj\2021\BIM Leaders Core.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Core\obj\2021\BIM Leaders Core.pdb

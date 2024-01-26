@@ -1,0 +1,9 @@
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD UI.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD_UI.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD UI.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD UI.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD UI.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD UI.pdb
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD UI.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD UI.dll
+C:\Users\a.chaur\source\repos\RD\RD\RD UI\obj\2020\RD UI.pdb

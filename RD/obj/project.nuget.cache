@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nGGl0L9As8XeZffbOfp6rGXjOkDQNZrQYe/AI3BFH3F/+yFtoE3Mh/KpaXrKDALyDigOZMfPDKW/X8An0NO1ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD\\ManageInfo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.chaur\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\a.chaur\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+obj\2020\Components.wixobj
+obj\2020\Directories.wixobj
+obj\2020\Product.wixobj
+C:\Users\a.chaur\source\repos\RD\RD\RD Setup\bin\2020\RD Setup  2020.msi
+C:\Users\a.chaur\source\repos\RD\RD\RD Setup\bin\2020\RD Setup  2020.wixpdb
+obj\2020\ComponentsGenerated.wixobj
+obj\2020\RD Setup.wixproj.BindContentsFileListnull.txt
+obj\2020\RD Setup.wixproj.BindOutputsFileListnull.txt
+obj\2020\RD Setup.wixproj.BindBuiltOutputsFileListnull.txt

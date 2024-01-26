@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <!-- COLORS -->
+    <SolidColorBrush x:Key="SColorBackgroundMain1" Color="#485960" />
+    <SolidColorBrush x:Key="SColorBackgroundMain2" Color="#83959f" />
+    <SolidColorBrush x:Key="SColorBackgroundFooter1" Color="#FFBFBFBF" />
+    <SolidColorBrush x:Key="SColorBackgroundFooter2" Color="#CFCFCF" />
+
+    <SolidColorBrush x:Key="SColorButtonBackground" Color="#CFCFCF" />
+    <!--
+    <SolidColorBrush x:Key="SColorButtonBackgroundDisabled" Color="#9c9c9c" />
+    -->
+    <SolidColorBrush x:Key="SColorButtonBackgroundDisabled" Color="#CFCFCF" />
+    <SolidColorBrush x:Key="SColorButtonBorder" Color="#CFCFCF" />
+
+    <SolidColorBrush x:Key="SColorSelectButtonBackground" Color="#CFCFCF" />
+    <SolidColorBrush x:Key="SColorSelectButtonBackgroundDisabled" Color="#4E4E53" />
+    <SolidColorBrush x:Key="SColorSelectButtonBorder" Color="#FFBFBFBF" />
+
+    <SolidColorBrush x:Key="SColorControlsGray" Color="#787880" />
+    <SolidColorBrush x:Key="SColorControlsOver" Color="#FFBFBFBF" />
+    <SolidColorBrush x:Key="SColorControls" Color="#007AFF" />
+
+    <SolidColorBrush x:Key="SColorDataGridBackground" Color="White" />
+    <SolidColorBrush x:Key="SColorDataGridBackgroundAlt" Color="#F0F0F0" />
+    <SolidColorBrush x:Key="SColorDataGridText" Color="Black" />
+    <SolidColorBrush x:Key="SColorDataGridBorder" Color="#007AFF" />
+
+    <SolidColorBrush x:Key="SColorText" Color="White" />
+    <SolidColorBrush x:Key="SColorTextHint" Color="#FFBFBFBF" />
+    <SolidColorBrush x:Key="SColorTextError" Color="#FF453A" />
+    <SolidColorBrush x:Key="SColorTextBlue" Color="#007AFF" />
+
+</ResourceDictionary>

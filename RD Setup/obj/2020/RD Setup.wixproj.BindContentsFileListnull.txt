@@ -1,0 +1,101 @@
+..\Output\2020\ArrayElemsDBAPI.dll
+..\Output\2020\Autodesk.UI.Themes.dll
+..\Output\2020\ElementGroupDBAPI.dll
+..\Output\2020\it-IT\AdWindows.resources.dll
+..\Output\2020\AnalysisAppsDBAPI.dll
+..\Output\2020\System.Numerics.Vectors.dll
+..\Output\2020\RebarDBAPI.dll
+..\Output\2020\ManagedMC3.dll
+..\Output\2020\pl-PL\AdWindows.resources.dll
+..\Output\2020\Autodesk.UI.Windows.dll
+..\Output\2020\RD Core.pdb
+..\Output\2020\UIFrameworkServices.dll
+..\Output\2020\MaterialDesignThemes.Wpf.dll
+..\Output\2020\RD.dll
+..\Output\2020\BuildingSystemsDBAPI.dll
+..\Output\2020\System.Text.Json.dll
+..\Output\2020\RevitAddInUtility.dll
+..\Output\2020\RevitDBAPI.dll
+..\Output\2020\SiteDBAPI.dll
+..\Output\2020\RD Logic.pdb
+..\Output\2020\RevitAPIFoundation.dll
+..\Output\2020\Microsoft.Bcl.AsyncInterfaces.dll
+..\Output\2020\StructuralAnalysisDBAPI.dll
+..\Output\2020\ru-RU\AdWindows.resources.dll
+..\Output\2020\EnergyAnalysisDBAPI.dll
+..\Output\2020\UIFramework.dll
+..\Output\2020\fr-FR\AdWindows.resources.dll
+..\Output\2020\StairRampDBAPI.dll
+..\Output\2020\en-US\AdWindows.resources.dll
+..\Output\2020\.txtTEMP.txt
+..\Output\2020\SculptingDBAPI.dll
+..\Output\2020\RD Core.dll
+..\Output\2020\RevitAPIUI.dll
+..\Output\2020\RevitAddInUtility.xml
+..\Output\2020\MaterialDesignColors.pdb
+..\Output\2020\PointCloudAccessAPI.dll
+..\Output\2020\ko-KR\AdWindows.resources.dll
+..\Output\2020\StructuralDBAPI.dll
+..\Output\2020\RD Windows.dll.config
+..\Output\2020\pt-BR\AdWindows.resources.dll
+..\Output\2020\HostObjDBAPI.dll
+..\Output\2020\DetailDBAPI.dll
+..\Output\2020\ja-JP\AdWindows.resources.dll
+..\Output\2020\RevitAPIUI.xml
+..\Output\2020\GraphicsAPI.dll
+..\Output\2020\Xceed.Wpf.AvalonDock.dll
+..\Output\2020\RD.addin
+..\Output\2020\RD Resources.dll
+..\Output\2020\zh-TW\AdWindows.resources.dll
+..\Output\2020\DPartDBAPI.dll
+..\Output\2020\BuildingSystemsUIAPI.dll
+..\Output\2020\RevitUIAPI.dll
+..\Output\2020\AddInManager.dll
+..\Output\2020\EnergyAnalysisUtilitiesAPI.dll
+..\Output\2020\RD Windows.pdb
+..\Output\2020\zh-CN\AdWindows.resources.dll
+..\Output\2020\EssentialsUIAPI.dll
+..\Output\2020\InterfaceAPI.dll
+..\Output\2020\AdWindows.dll
+..\Output\2020\NumberingDBAPI.dll
+..\Output\2020\APIDBAPI.dll
+..\Output\2020\System.Text.Encodings.Web.dll
+..\Output\2020\RD.pdb
+..\Output\2020\CurtainGridFamilyDBAPI.dll
+..\Output\2020\de-DE\AdWindows.resources.dll
+..\Output\2020\System.Runtime.CompilerServices.Unsafe.dll
+..\Output\2020\System.Buffers.dll
+..\Output\2020\RevitAPI.dll
+..\Output\2020\MaterialDesignThemes.Wpf.pdb
+..\Output\2020\es-ES\AdWindows.resources.dll
+..\Output\2020\RevitMFCAPI.dll
+..\Output\2020\UtilityAPI.dll
+..\Output\2020\InterfaceUtilAPI.dll
+..\Output\2020\RD Logic.dll
+..\Output\2020\APIUIAPI.dll
+..\Output\2020\RevitAPI.xml
+..\Output\2020\FamilyDBAPI.dll
+..\Output\2020\DetailUIAPI.dll
+..\Output\2020\MassingDBAPI.dll
+..\Output\2020\RD UI.dll
+..\Output\2020\DBManagedServices.dll
+..\Output\2020\.txtNEW.txt
+..\Output\2020\MaterialDesignColors.dll
+..\Output\2020\RD Windows.dll
+..\Output\2020\MaterialDBAPI.dll
+..\Output\2020\PersistenceDBAPI.dll
+..\Output\2020\cs-CZ\AdWindows.resources.dll
+..\Output\2020\APIInterop.dll
+..\Output\2020\en-GB\AdWindows.resources.dll
+..\Output\2020\AssemblyDBAPI.dll
+..\Output\2020\System.ValueTuple.dll
+..\Output\2020\MaterialDesignThemes.Wpf.xml
+..\Output\2020\RD Resources.pdb
+..\Output\2020\GeomUtilAPI.dll
+..\Output\2020\RD.addin
+..\Output\2020\RoomAreaPlanDBAPI.dll
+..\Output\2020\RD UI.pdb
+..\Output\2020\EssentialsDBAPI.dll
+..\Output\2020\DesktopMFCAPI.dll
+..\Output\2020\System.Threading.Tasks.Extensions.dll
+..\Output\2020\AdpSDKCSharpWrapper.dll

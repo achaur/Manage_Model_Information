@@ -1,0 +1,8 @@
+C:\Users\a.chaur\source\repos\RD\RD\Output\2023\RD Resources.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2023\RD Resources.pdb
+C:\Users\a.chaur\source\repos\RD\RD\RD Resources\obj\2023\RD Resources.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Resources\obj\2023\RD Resources.g.resources
+C:\Users\a.chaur\source\repos\RD\RD\RD Resources\obj\2023\RD Resources.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Resources\obj\2023\RD Resources.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\RD Resources\obj\2023\RD Resources.dll
+C:\Users\a.chaur\source\repos\RD\RD\RD Resources\obj\2023\RD Resources.pdb

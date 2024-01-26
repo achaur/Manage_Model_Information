@@ -1,0 +1,7 @@
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Core\obj\2023\Template Core.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Core\obj\2023\Template Core.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2023\Template Core.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2023\Template Core.pdb
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Core\obj\2023\Template Core.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Core\obj\2023\Template Core.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Core\obj\2023\Template Core.pdb

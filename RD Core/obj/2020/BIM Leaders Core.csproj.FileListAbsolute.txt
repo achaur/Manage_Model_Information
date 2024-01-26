@@ -1,0 +1,2 @@
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Core\obj\2020\BIM Leaders Core.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Core\obj\2020\BIM Leaders Core.csproj.CoreCompileInputs.cache

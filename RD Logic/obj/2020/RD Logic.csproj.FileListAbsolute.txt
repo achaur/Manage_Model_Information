@@ -1,0 +1,7 @@
+C:\Users\a.chaur\source\repos\RD\RD\RD Logic\obj\2020\RD Logic.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Logic\obj\2020\RD Logic.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD Logic.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD Logic.pdb
+C:\Users\a.chaur\source\repos\RD\RD\RD Logic\obj\2020\RD Logic.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\RD Logic\obj\2020\RD Logic.dll
+C:\Users\a.chaur\source\repos\RD\RD\RD Logic\obj\2020\RD Logic.pdb

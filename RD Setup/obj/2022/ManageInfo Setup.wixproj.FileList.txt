@@ -1,0 +1,9 @@
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Setup\bin\2022\ManageInfo Setup  $(Configuration).msi
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Setup\bin\2022\ManageInfo Setup  $(Configuration).wixpdb
+obj\2022\Components.wixobj
+obj\2022\ComponentsGenerated.wixobj
+obj\2022\Directories.wixobj
+obj\2022\Product.wixobj
+obj\2022\ManageInfo Setup.wixproj.BindContentsFileListnull.txt
+obj\2022\ManageInfo Setup.wixproj.BindOutputsFileListnull.txt
+obj\2022\ManageInfo Setup.wixproj.BindBuiltOutputsFileListnull.txt

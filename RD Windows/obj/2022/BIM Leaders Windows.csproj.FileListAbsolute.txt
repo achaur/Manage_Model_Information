@@ -1,0 +1,344 @@
+C:\Users\a.chaur\source\repos\BIM-Leaders\Output\2022\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders\Output\2022\BIM Leaders Windows.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Fonts.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Colors.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\Window.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\ReportForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\ResultForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\CheckerForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\PurgeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\GeneratedInternalTypeHelper.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.lref
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\TabControl.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\DataGrid.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\GroupBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\ComboBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\Button.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\CheckBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\Label.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Resources.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\RadioButton.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\TextBlock.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Styles\TextBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\ReportForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\ResultForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\CheckerForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\PurgeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.g.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM_Leaders_Windows.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\BIM Leaders Windows.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\EstimateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\EstimateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\MisuseForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\MisuseForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\Output\2022\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\Output\2022\BIM Leaders Windows.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Fonts.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Colors.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Window.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\EstimateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\MisuseForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ReportForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ResultForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckerForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\PurgeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\GeneratedInternalTypeHelper.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.lref
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TabControl.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\DataGrid.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\GroupBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\ComboBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Button.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\CheckBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Label.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Resources.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\RadioButton.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TextBlock.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TextBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\EstimateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\MisuseForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ReportForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ResultForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckerForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\PurgeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.g.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM_Leaders_Windows.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.pdb
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\Output\2022\BIM Leaders Windows.dll
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\Output\2022\BIM Leaders Windows.pdb
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Fonts.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Colors.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Window.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\EstimateForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\MisuseForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ReportForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ResultForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckerForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\PurgeForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\GeneratedInternalTypeHelper.g.cs
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.cache
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.lref
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TabControl.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\DataGrid.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\GroupBox.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\ComboBox.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Button.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\CheckBox.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Label.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Resources.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\RadioButton.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TextBlock.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TextBox.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\EstimateForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\MisuseForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ReportForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ResultForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckerForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\PurgeForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.baml
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.g.resources
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM_Leaders_Windows.Properties.Resources.resources
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.GenerateResource.cache
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CopyComplete
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.dll
+C:\Users\DELL\Source\Repos\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\Output\2022\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\Output\2022\BIM Leaders Windows.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Fonts.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Colors.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Window.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CatPage.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\SliceColumnsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\EstimateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\MisuseForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ReportForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ResultForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckerForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\PurgeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\GeneratedInternalTypeHelper.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows_MarkupCompile.lref
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TabControl.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\DataGrid.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\GroupBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\ComboBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Button.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\CheckBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\Label.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Resources.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\RadioButton.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TextBlock.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Styles\TextBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CatPage.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\SliceColumnsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JoinGeometryForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\EstimateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DeleteFamilyParameterForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckStairFormulaForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\MisuseForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\HeadHeightForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ListsCreateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ReportForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionPlanLineForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\TagsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionStairsLandingsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\JournalAnalyzeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\ResultForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsParallelForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WarningsSolveForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsArrangedForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\FamilyParameterSetForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgViewFoundForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\CheckerForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\NamesChangeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\PurgeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DwgNameDeleteForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\WallsCompareForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\StairsStepsEnumerateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\LevelsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\GridsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\Views\DimensionSectionFloorsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.g.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM_Leaders_Windows.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM-Leaders-Plugin\BIM Leaders Windows\obj\2022\BIM Leaders Windows.pdb

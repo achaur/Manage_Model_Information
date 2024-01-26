@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+		<ComponentGroup Id="ProductComponentsAddin" Directory="versionFolder">
+			<ComponentRef Id="File0" />
+		</ComponentGroup>
+
+		<DirectoryRef Id="versionFolder" FileSource="..\Output\$(var.Configuration)">
+			<Component Id="File0" Guid="{55E72EF5-A4CA-4B6A-A9D6-8D7F1F693A06}">
+				<File Id="FileAddinFile" Name="RD.addin" KeyPath="yes"></File>
+			</Component>
+		</DirectoryRef>
+	</Fragment>
+</Wix>

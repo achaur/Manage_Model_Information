@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders\\BIM Leaders.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj",
+        "projectName": "BIM Leaders Core",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj",
+        "projectName": "BIM Leaders Logic",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj",
+        "projectName": "BIM Leaders Resources",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders UI\\BIM Leaders UI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders UI\\BIM Leaders UI.csproj",
+        "projectName": "BIM Leaders UI",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders UI\\BIM Leaders UI.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Utils\\BIM Leaders Utils.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Utils\\BIM Leaders Utils.csproj",
+        "projectName": "BIM Leaders Utils",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Utils\\BIM Leaders Utils.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj",
+        "projectName": "BIM Leaders Windows",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Logic\\BIM Leaders Logic.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders\\BIM Leaders.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders\\BIM Leaders.csproj",
+        "projectName": "BIM Leaders",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders\\BIM Leaders.csproj",
+        "packagesPath": "C:\\Users\\a.chaur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\a.chaur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Core\\BIM Leaders Core.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Resources\\BIM Leaders Resources.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders UI\\BIM Leaders UI.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders UI\\BIM Leaders UI.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Utils\\BIM Leaders Utils.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Utils\\BIM Leaders Utils.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\BIM-Leaders-Plugin\\BIM-Leaders-Plugin\\BIM Leaders Windows\\BIM Leaders Windows.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.62.0.3148, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "WiX": {
+              "target": "Package",
+              "version": "[3.11.2, )"
+            },
+            "WiX.Toolset": {
+              "target": "Package",
+              "version": "[3.9.1208, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

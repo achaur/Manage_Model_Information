@@ -1,0 +1,9 @@
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\Output\2020\BIM Leaders UI.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\Output\2020\BIM Leaders UI.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM Leaders UI.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM_Leaders_UI.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM Leaders UI.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM Leaders UI.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM Leaders UI.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM Leaders UI.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders-Plugin\BIM Leaders UI\obj\2020\BIM Leaders UI.pdb

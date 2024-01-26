@@ -1,0 +1,16 @@
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2022\Template Resources.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2022\Template Resources.pdb
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Resources\obj\2022\Template Resources.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Resources\obj\2022\Template Resources.g.resources
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Resources\obj\2022\Template Resources.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Resources\obj\2022\Template Resources.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Resources\obj\2022\Template Resources.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Resources\obj\2022\Template Resources.pdb
+C:\Users\a.chaur\source\repos\RD\RD\Output\2022\Template Resources.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2022\Template Resources.pdb
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Resources\obj\2022\Template Resources.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Resources\obj\2022\Template Resources.g.resources
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Resources\obj\2022\Template Resources.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Resources\obj\2022\Template Resources.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Resources\obj\2022\Template Resources.dll
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Resources\obj\2022\Template Resources.pdb

@@ -1,0 +1,73 @@
+C:\Users\a.chaur\source\repos\BIM-Leaders\Output\2021\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders\Output\2021\BIM Leaders Windows.pdb
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Fonts.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Colors.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\Window.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\ListsCreateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\ReportForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionPlanLineForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\TagsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionsPlanForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionStairsLandingsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionsPlanCheckForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\JournalAnalyzeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\ResultForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WallsParallelForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WarningsSolveForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WallsArrangedForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\FamilyParameterSetForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DwgViewFoundForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\CheckerForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\NamesChangeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\PurgeForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DwgNameDeleteForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WallsCompareForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\StairsStepsEnumerateForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\LevelsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\GridsAlignForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionSectionFloorsForm.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\GeneratedInternalTypeHelper.g.cs
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows_MarkupCompile.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows_MarkupCompile.lref
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\TabControl.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\DataGrid.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\GroupBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\ComboBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\Button.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\CheckBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\Label.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Resources.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\RadioButton.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\TextBlock.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Styles\TextBox.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\ListsCreateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\ReportForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionPlanLineForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\TagsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionsPlanForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionStairsLandingsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionsPlanCheckForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\JournalAnalyzeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\ResultForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WallsParallelForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WarningsSolveForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WallsArrangedForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\FamilyParameterSetForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DwgViewFoundForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\CheckerForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\NamesChangeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\PurgeForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DwgNameDeleteForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\WallsCompareForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\StairsStepsEnumerateForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\LevelsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\GridsAlignForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\Views\DimensionSectionFloorsForm.baml
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.g.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM_Leaders_Windows.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.dll
+C:\Users\a.chaur\source\repos\BIM-Leaders\BIM Leaders Windows\obj\2021\BIM Leaders Windows.pdb

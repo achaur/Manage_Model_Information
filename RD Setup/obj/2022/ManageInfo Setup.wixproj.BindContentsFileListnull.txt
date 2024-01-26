@@ -1,0 +1,78 @@
+..\Output\2022\ArrayElemsDBAPI.dll
+..\Output\2022\ElementGroupDBAPI.dll
+..\Output\2022\AnalysisAppsDBAPI.dll
+..\Output\2022\System.Numerics.Vectors.dll
+..\Output\2022\RebarDBAPI.dll
+..\Output\2022\ManageInfo Logic.pdb
+..\Output\2022\RD Core.pdb
+..\Output\2022\MaterialDesignThemes.Wpf.dll
+..\Output\2022\RD.dll
+..\Output\2022\BuildingSystemsDBAPI.dll
+..\Output\2022\System.Text.Json.dll
+..\Output\2022\RevitDBAPI.dll
+..\Output\2022\SiteDBAPI.dll
+..\Output\2022\RD Logic.pdb
+..\Output\2022\RevitAPIFoundation.dll
+..\Output\2022\Microsoft.Bcl.AsyncInterfaces.dll
+..\Output\2022\StructuralAnalysisDBAPI.dll
+..\Output\2022\EnergyAnalysisDBAPI.dll
+..\Output\2022\StairRampDBAPI.dll
+..\Output\2022\ManageInfo Windows.dll.config
+..\Output\2022\SculptingDBAPI.dll
+..\Output\2022\RD Core.dll
+..\Output\2022\MaterialDesignColors.pdb
+..\Output\2022\PointCloudAccessAPI.dll
+..\Output\2022\RevitDBCoreAPI.dll
+..\Output\2022\StructuralDBAPI.dll
+..\Output\2022\ManageInfo.dll
+..\Output\2022\AdskRcManaged.dll
+..\Output\2022\HostObjDBAPI.dll
+..\Output\2022\DetailDBAPI.dll
+..\Output\2022\GraphicsAPI.dll
+..\Output\2022\RD.addin
+..\Output\2022\RD Resources.dll
+..\Output\2022\ManageInfo Windows.dll
+..\Output\2022\DPartDBAPI.dll
+..\Output\2022\IntfATFAPI.dll
+..\Output\2022\RD Windows.pdb
+..\Output\2022\TextEngineAPI.dll
+..\Output\2022\ManageInfo Windows.pdb
+..\Output\2022\InterfaceAPI.dll
+..\Output\2022\NumberingDBAPI.dll
+..\Output\2022\APIDBAPI.dll
+..\Output\2022\System.Text.Encodings.Web.dll
+..\Output\2022\RD.pdb
+..\Output\2022\CurtainGridFamilyDBAPI.dll
+..\Output\2022\ManageInfo Core.pdb
+..\Output\2022\System.Runtime.CompilerServices.Unsafe.dll
+..\Output\2022\System.Buffers.dll
+..\Output\2022\RevitAPI.dll
+..\Output\2022\MaterialDesignThemes.Wpf.pdb
+..\Output\2022\ManageInfo Logic.dll
+..\Output\2022\UtilityAPI.dll
+..\Output\2022\InterfaceUtilAPI.dll
+..\Output\2022\ManageInfo Resources.pdb
+..\Output\2022\ManageInfo.pdb
+..\Output\2022\RD Logic.dll
+..\Output\2022\RevitAPI.xml
+..\Output\2022\FamilyDBAPI.dll
+..\Output\2022\ManageInfo Core.dll
+..\Output\2022\MassingDBAPI.dll
+..\Output\2022\RD UI.dll
+..\Output\2022\DBManagedServices.dll
+..\Output\2022\MaterialDesignColors.dll
+..\Output\2022\RD Windows.dll
+..\Output\2022\MaterialDBAPI.dll
+..\Output\2022\PersistenceDBAPI.dll
+..\Output\2022\AssemblyDBAPI.dll
+..\Output\2022\System.ValueTuple.dll
+..\Output\2022\MaterialDesignThemes.Wpf.xml
+..\Output\2022\RD Resources.pdb
+..\Output\2022\GeomUtilAPI.dll
+..\Output\2022\RD.addin
+..\Output\2022\RoomAreaPlanDBAPI.dll
+..\Output\2022\RD UI.pdb
+..\Output\2022\EssentialsDBAPI.dll
+..\Output\2022\ManageInfo Resources.dll
+..\Output\2022\System.Threading.Tasks.Extensions.dll
+..\Output\2022\AdpSDKCSharpWrapper.dll

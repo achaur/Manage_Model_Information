@@ -1,0 +1,14 @@
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2022\Template Logic.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2022\Template Logic.pdb
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Logic\obj\2022\Template Logic.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Logic\obj\2022\Template Logic.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Logic\obj\2022\Template Logic.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Logic\obj\2022\Template Logic.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders Logic\obj\2022\Template Logic.pdb
+C:\Users\a.chaur\source\repos\RD\RD\Output\2022\Template Logic.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2022\Template Logic.pdb
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Logic\obj\2022\Template Logic.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Logic\obj\2022\Template Logic.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Logic\obj\2022\Template Logic.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Logic\obj\2022\Template Logic.dll
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders Logic\obj\2022\Template Logic.pdb

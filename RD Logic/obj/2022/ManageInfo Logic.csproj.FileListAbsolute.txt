@@ -1,0 +1,7 @@
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\ManageInfo Logic.dll
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\ManageInfo Logic.pdb
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Logic\obj\2022\ManageInfo Logic.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Logic\obj\2022\ManageInfo Logic.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Logic\obj\2022\ManageInfo Logic.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Logic\obj\2022\ManageInfo Logic.dll
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Logic\obj\2022\ManageInfo Logic.pdb

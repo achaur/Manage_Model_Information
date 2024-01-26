@@ -1,0 +1,34 @@
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Fonts.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Colors.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\Window.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Views\FamilyBasePointForm.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Views\ReportForm.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Views\ResultForm.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\GeneratedInternalTypeHelper.g.cs
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows_MarkupCompile.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows_MarkupCompile.lref
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD Windows.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD Windows.pdb
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\TabControl.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\DataGrid.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\GroupBox.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\ComboBox.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\Button.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\CheckBox.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\Label.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Resources.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\RadioButton.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\TextBlock.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Styles\TextBox.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Views\FamilyBasePointForm.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Views\ReportForm.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\Views\ResultForm.baml
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.g.resources
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD_Windows.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.dll
+C:\Users\a.chaur\source\repos\RD\RD\RD Windows\obj\2020\RD Windows.pdb
+C:\Users\a.chaur\source\repos\RD\RD\Output\2020\RD Windows.dll.config

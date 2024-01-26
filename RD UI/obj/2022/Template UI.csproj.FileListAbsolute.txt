@@ -1,0 +1,18 @@
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2022\Template UI.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\Output\2022\Template UI.pdb
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template UI.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template_UI.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template UI.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template UI.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template UI.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template UI.dll
+C:\Users\a.chaur\source\repos\Revit-API-Template\BIM Leaders UI\obj\2022\Template UI.pdb
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template UI.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template_UI.Properties.Resources.resources
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template UI.csproj.GenerateResource.cache
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template UI.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\RD\RD\Output\2022\Template UI.dll
+C:\Users\a.chaur\source\repos\RD\RD\Output\2022\Template UI.pdb
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template UI.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template UI.dll
+C:\Users\a.chaur\source\repos\RD\RD\BIM Leaders UI\obj\2022\Template UI.pdb

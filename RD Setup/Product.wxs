@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<!-- Сhange ProductCode for creating major upgrade! -->
+	<?if $(var.Configuration)=2020 ?>
+	<?define ProductCode = "{C67F192E-0625-48BC-AFF5-3E940125A8B5}"?>
+	<?endif?>
+	<?if $(var.Configuration)=2021 ?>
+	<?define ProductCode = "{9FF7E7A5-AF7E-4E1E-B480-4CB63286D7CD}"?>
+	<?endif?>
+	<?if $(var.Configuration)=2022 ?>
+	<?define ProductCode = "{86577E70-88C6-42FC-B607-49D426C8E775}"?>
+	<?endif?>
+	<?if $(var.Configuration)=2023 ?>
+	<?define ProductCode = "{57FCA357-81BA-412A-8989-D5D2872B2565}"?>
+	<?endif?>
+
+	<!-- Do not change! Must be the same in all versions -->
+	<?define UpgradeCode = "{FFF884EB-714A-4364-8752-15CD162EC18A}"?>
+
+	<!-- Some info -->
+	<?define Company = "Company Name"?>
+	<?define Description = "Revit Addin"?>
+	<?define Keywords = "revit, addin, plugin"?>
+	<?define Comments = "Developed in 2024 to make work easy"?>
+	
+	<Product Id="{A2A0CE2C-14CA-432B-90F6-4873FAD67762}"
+			 Name="ManageInfo Setup $(var.Configuration)" 
+			 Language="1033" 
+			 Version="1.0.0.0" 
+			 Manufacturer="Company" 
+			 UpgradeCode="69311986-e35a-4041-9de0-60e5ca2c285e">
+
+		<Package InstallerVersion="200"
+				 Compressed="yes"
+				 InstallScope="perMachine"
+				 Manufacturer="$(var.Company)"
+				 Description="https://revitdynamo.com/"
+				 Keywords="$(var.Keywords)"
+				 Comments="$(var.Comments)"
+				 />
+
+		<MajorUpgrade
+			Schedule="afterInstallInitialize"
+			DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		
+		<!-- Included files inside of the installer -->
+		<MediaTemplate
+			EmbedCab="yes"
+			/>
+		<!-- Icon of the installer 
+		-->
+		<Icon Id="icon.ico" 
+			  SourceFile="$(var.ManageInfo Resources.ProjectDir)\rdIcon.ico" />
+		<Property Id="ARPPRODUCTICON">icon.ico</Property>
+		<Property Id="ARPURLINFOABOUT">https://revitdynamo.com/</Property>
+		<Property Id="ARPHELPLINK" Value="https://revitdynamo.com/" />
+
+		<!-- Basic UI -->
+		<UIRef Id="WixUI_Minimal" />
+		<!-- Left image -->
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ProjectDir)\Assets\Background.bmp" />
+		<!-- Banner image -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ProjectDir)\Assets\Banner.bmp" />
+		<!-- Agreement -->
+		<WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\Agreement.rtf" />
+
+		<Feature Id="ProductFeature" 
+				 Title="ManageInfo Setup" 
+				 Level="1">
+			<!--
+			-->
+			<ComponentGroupRef Id="PublishedComponents" />
+			<ComponentGroupRef Id="ProductComponentsAddin"/>
+		</Feature>
+	</Product>
+</Wix>

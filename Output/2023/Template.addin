@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Template</Name>
+		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2022\Template.dll</Assembly>
+		<AddInId>
+			D3B4FFD9-51CF-482C-8F59-4136A8AABB90
+		</AddInId>
+		<FullClassName>Template.Main</FullClassName>
+		<VendorId>Pinchuk</VendorId>
+		<VendorDescription>42</VendorDescription>
+	</AddIn>
+	<AddIn Type="DBApplication">
+		<Name>Template DB</Name>
+		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2022\Template.dll</Assembly>
+		<AddInId>
+			2122D1BE-6BA1-4F27-983E-FA2EFE9930E7
+		</AddInId>
+		<FullClassName>Template.ExternalDBAppGroupRestore</FullClassName>
+		<Text>Group Restore in a Document</Text>
+		<Description>Event Register for Group Restore</Description>
+		<VendorId>Pinchuk</VendorId>
+		<VendorDescription>42</VendorDescription>
+	</AddIn>
+</RevitAddIns>
