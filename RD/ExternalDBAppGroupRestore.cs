@@ -11,6 +11,7 @@ namespace ManageInfo
     {
         public ExternalDBApplicationResult OnShutdown(ControlledApplication application)
         {
+            //add event that tracks when parameters of element of type conduit was changed
             return ExternalDBApplicationResult.Succeeded;
         }
         public ExternalDBApplicationResult OnStartup(ControlledApplication application)

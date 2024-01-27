@@ -58,8 +58,8 @@
                 </Setter>
             </Trigger>
         </Style.Triggers>
-        
     </Style>
+    
 
     <Style x:Key="SSlider" TargetType="Slider" BasedOn="{StaticResource MaterialDesignDiscreteHorizontalSlider}">
         
@@ -115,6 +115,29 @@
 
     </Style>
 
+    <Style x:Key="SButtonHide" TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedDarkButton}">
+        <Setter Property="Background" Value="{x:Null}" />
+        <Setter Property="BorderBrush" Value="{x:Null}" />
+        <Setter Property="Width" Value="20" />
+        <Setter Property="Height" Value="25" />
+        <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="ToolTip" Value="Cancel" />
+        <Setter Property="FontFamily" Value="{StaticResource SFontFamilyMain}" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <materialDesign:PackIcon Kind="Hide"
+                                             Width="18" Height="18"
+                                             Foreground="#CFCFCF"
+                                             Background="#7c8e97"
+                                             HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
     <Style x:Key="SButtonClose" TargetType="Button" BasedOn="{StaticResource MaterialDesignFloatingActionDarkButton}">
         <Setter Property="Background" Value="{x:Null}" />
         <Setter Property="BorderBrush" Value="{x:Null}" />

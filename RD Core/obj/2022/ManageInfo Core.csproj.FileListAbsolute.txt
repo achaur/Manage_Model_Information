@@ -5,3 +5,4 @@ C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Core\obj\2022\ManageInfo Core.csproj.CopyComplete
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Core\obj\2022\ManageInfo Core.dll
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Core\obj\2022\ManageInfo Core.pdb
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\ManageInfo Core.dll.config

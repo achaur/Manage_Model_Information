@@ -4,6 +4,21 @@
     "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD\\ManageInfo.csproj": {}
   },
   "projects": {
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj",
+        "projectName": "ManageInfo.Utils",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Core\\ManageInfo Core.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Core\\ManageInfo Core.csproj",
@@ -86,6 +101,9 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj"
+              },
               "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Logic\\ManageInfo Logic.csproj": {
                 "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Logic\\ManageInfo Logic.csproj"
               }

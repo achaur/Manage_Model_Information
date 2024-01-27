@@ -5,9 +5,10 @@ using System.Windows;
 using System.Windows.Input;
 using ManageInfo_Logic;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
-using SaveFileDialog = Microsoft.Win32.SaveFileDialog;
 using ManageInfo_Windows.ViewModels;
 using System.Collections.ObjectModel;
+using ManageInfo_Utils;
+using System.Windows.Forms;
 
 namespace ManageInfo_Windows
 {
@@ -20,9 +21,9 @@ namespace ManageInfo_Windows
         public int SelectedIndex
         {
             get { return selectedIndex; }
-            set 
-            { 
-                selectedIndex = value; 
+            set
+            {
+                selectedIndex = value;
                 OnPropertyChanged(nameof(SelectedIndex));
             }
         }
@@ -38,8 +39,9 @@ namespace ManageInfo_Windows
         public ObservableCollection<RowData> Items
         {
             get { return items; }
-            set { 
-                items = value; 
+            set {
+                items = value;
+                ManageData.UpdateCalculations();
                 OnPropertyChanged(nameof(Items));
             }
         }
@@ -48,8 +50,8 @@ namespace ManageInfo_Windows
         public List<int> SelectedElement
         {
             get { return selectedElement; }
-            set { 
-                selectedElement = value; 
+            set {
+                selectedElement = value;
                 OnPropertyChanged(nameof(SelectedElement));
             }
         }
@@ -58,12 +60,24 @@ namespace ManageInfo_Windows
         public bool InputCorrect
         {
             get { return inputCorrect; }
-            set 
-            { 
-                inputCorrect = value; 
+            set
+            {
+                inputCorrect = value;
                 OnPropertyChanged(nameof(InputCorrect));
             }
         }
+
+        private bool hideCalculations;
+
+        public bool HideCalculations
+        {
+            get { return hideCalculations; }
+            set {
+                hideCalculations = value;
+                OnPropertyChanged(nameof(HideCalculations));
+            }
+        }
+
 
         #endregion
 
@@ -74,6 +88,8 @@ namespace ManageInfo_Windows
             ImportExcelCommand = new CommandWindow(ImportExcelAction);
             ExportExcelCommand = new CommandGeneric(ExportExcelAction);
             AddRowCommand = new CommandGeneric(AddRowDataAction);
+            SetCalculationsVisibility = new CommandGeneric(SetCalculationsVisibilityAction);
+
             RemoveRowCommand = new CommandGeneric(DeleteRowDataAction);
             CopyRowCommand = new CommandGeneric(CopyRowDataAction);
         }
@@ -81,10 +97,9 @@ namespace ManageInfo_Windows
         #region METHODS
         public override void SetInitialData()
         {
-            ManageData md = new ManageData();
+            HideCalculations = true;
             Items = ManageData.GetRowsData();
-            //FamilyName = "";
-            //FamilyShortName = "";
+            ManageData.UpdateCalculations();
             Model = (ManageInformationModel)BaseModel;
         }
 
@@ -94,13 +109,14 @@ namespace ManageInfo_Windows
 
         private bool CheckInput()
         {
-           
+
             return false;
         }
 
         #endregion
 
         #region COMMANDS
+        public ICommand SetCalculationsVisibility { get; set; }
         public ICommand ImportExcelCommand { get; set; }
         public ICommand ExportExcelCommand { get; set; }
         public ICommand AddRowCommand { get; set; }
@@ -150,7 +166,7 @@ namespace ManageInfo_Windows
                 string fileName = openFileDialog.SafeFileName;
             }
             else
-            { 
+            {
                 //didn't pick anything
             }
         }
@@ -160,20 +176,21 @@ namespace ManageInfo_Windows
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
                 Title = "Please select a folder...",
-                Filter = "xlsx files (*.txt)|*.xlsx",
+                Filter = "xlsx files (*.xlsx)|*.xlsx",
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
                 FileName = CreateFileName(),
                 CheckFileExists = false,
                 AddExtension = true
             };
 
-            bool? success = saveFileDialog.ShowDialog();
-
-            if (success == true)
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string filePath = saveFileDialog.FileName;
+                filePath = filePath.Replace("\\", "/");
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
+                    List<List<string>> rowDataConverted = ManageData.RowDataToStringLists();
+                    ExcelUtils.RowDataToExcel(filePath, rowDataConverted);
                     // Write data to excel file
                 }
             }
@@ -181,18 +198,28 @@ namespace ManageInfo_Windows
 
         private void AddRowDataAction()
         {
-            AddRowDataForm addRowDataWindow = new AddRowDataForm();
-
-            /*
-            ManageData.AddRowData(new RowData() 
-            { 
+            ManageData.AddRowData(new RowData()
+            {
+                _column0 = "Id",
                 _column1 = "new",
                 _column2 = "new",
                 _column3 = "new",
                 _column4 = "new",
                 _column5 = "new"
             });
-            */
+            ManageData.UpdateCalculations();
+        }
+
+        private void SetCalculationsVisibilityAction()
+        {
+            if (HideCalculations == true)
+            {
+                HideCalculations = false;
+            }
+            else
+            { 
+                HideCalculations = true;
+            }
         }
 
         private void DeleteRowDataAction()

@@ -81,13 +81,23 @@
       "ManageInfo Windows/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0"
+          "ManageInfo Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ManageInfo Windows.dll": {}
         },
         "runtime": {
           "bin/placeholder/ManageInfo Windows.dll": {}
+        }
+      },
+      "ManageInfo.Utils/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
         }
       }
     },
@@ -171,13 +181,23 @@
       "ManageInfo Windows/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0"
+          "ManageInfo Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ManageInfo Windows.dll": {}
         },
         "runtime": {
           "bin/placeholder/ManageInfo Windows.dll": {}
+        }
+      },
+      "ManageInfo.Utils/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
         }
       }
     },
@@ -261,13 +281,23 @@
       "ManageInfo Windows/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0"
+          "ManageInfo Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ManageInfo Windows.dll": {}
         },
         "runtime": {
           "bin/placeholder/ManageInfo Windows.dll": {}
+        }
+      },
+      "ManageInfo.Utils/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
         }
       }
     },
@@ -351,13 +381,23 @@
       "ManageInfo Windows/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0"
+          "ManageInfo Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ManageInfo Windows.dll": {}
         },
         "runtime": {
           "bin/placeholder/ManageInfo Windows.dll": {}
+        }
+      },
+      "ManageInfo.Utils/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Utils.dll": {}
         }
       }
     }
@@ -447,6 +487,11 @@
       "type": "project",
       "path": "../RD Windows/ManageInfo Windows.csproj",
       "msbuildProject": "../RD Windows/ManageInfo Windows.csproj"
+    },
+    "ManageInfo.Utils/1.0.0": {
+      "type": "project",
+      "path": "../ManageInfo.Utils/ManageInfo.Utils.csproj",
+      "msbuildProject": "../ManageInfo.Utils/ManageInfo.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
