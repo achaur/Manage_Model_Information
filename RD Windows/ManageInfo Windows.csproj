@@ -33,7 +33,7 @@
     <OutputPath>..\Output\2021\</OutputPath>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -43,7 +43,7 @@
     <OutputPath>..\Output\2022\</OutputPath>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -53,7 +53,7 @@
     <OutputPath>..\Output\2022\</OutputPath>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -107,12 +107,18 @@
     <Compile Include="Commands\CommandWindow.cs" />
     <Compile Include="Converters\MultivalueTextBoxesConverter.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
-    <Compile Include="ViewModels\FamilyBasePointViewModel.cs" />
+    <Compile Include="ViewModels\ManageData.cs" />
+    <Compile Include="ViewModels\AddRowDataWindow.cs" />
+    <Compile Include="ViewModels\ManageInformationViewModel.cs" />
     <Compile Include="ViewModels\ReportViewModel.cs" />
     <Compile Include="ViewModels\ResultViewModel.cs" />
+    <Compile Include="ViewModels\RowData.cs" />
     <Compile Include="Views\BaseView.cs" />
-    <Compile Include="Views\FamilyBasePointForm.xaml.cs">
-      <DependentUpon>FamilyBasePointForm.xaml</DependentUpon>
+    <Compile Include="Views\AddRowDataForm.xaml.cs">
+      <DependentUpon>AddRowDataForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageInformationForm.xaml.cs">
+      <DependentUpon>ManageInformationForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Converters\MultivalueBoolConverter.cs" />
     <Compile Include="Views\ResultForm.xaml.cs">
@@ -127,6 +133,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Colors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ListView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -178,7 +188,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\FamilyBasePointForm.xaml">
+    <Page Include="Views\AddRowDataForm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ManageInformationForm.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

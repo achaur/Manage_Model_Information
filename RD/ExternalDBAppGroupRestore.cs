@@ -13,7 +13,6 @@ namespace ManageInfo
         {
             return ExternalDBApplicationResult.Succeeded;
         }
-
         public ExternalDBApplicationResult OnStartup(ControlledApplication application)
         {
             try

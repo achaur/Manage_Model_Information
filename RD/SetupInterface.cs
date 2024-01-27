@@ -20,7 +20,7 @@ namespace ManageInfo
         public void Initialize(UIControlledApplication application)
         {
             // Create Ribbon Tab
-            string tabName = "ManageInfo Studio";
+            string tabName = "Manage Info";
             application.CreateRibbonTab(tabName);
 
             PanelsOfPlugin = new List<RibbonPanel>();
@@ -36,10 +36,10 @@ namespace ManageInfo
 
             RevitPushButtonDataModel buttonData01 = new RevitPushButtonDataModel
             {
-                Label = "Find Base Point",
+                Label = "Manage Information",
                 Panel = panel,
-                ToolTip = "Creates a visual indication of the Family Base Point for selected Families.",
-                CommandNamespacePath = FamilyBasePoint.GetPath(),
+                ToolTip = "Fill and Update Model Information.",
+                CommandNamespacePath = ManageInformation.GetPath(),
                 IconImageName = "family_base_points.png",
                 AvailabilityClassName = "ManageInfo_Core.DocumentIsNotFamily"
             };

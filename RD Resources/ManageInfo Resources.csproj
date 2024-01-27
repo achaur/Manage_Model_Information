@@ -92,11 +92,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Images\Icons\Family_Base_Point.png" />
     <EmbeddedResource Include="Images\Icons\family_base_points.png" />
-    <EmbeddedResource Include="Images\Icons\family_base_point_3.png" />
-    <EmbeddedResource Include="Images\Icons\Family_Base_Point2.png" />
-    <EmbeddedResource Include="Images\Icons\Family_Base_Point4.png" />
     <Content Include="rdIcon.ico" />
     <Content Include="VersionHandler.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

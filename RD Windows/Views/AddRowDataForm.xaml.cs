@@ -2,9 +2,9 @@
 
 namespace ManageInfo_Windows
 {
-    public partial class FamilyBasePointForm : BaseView
+    public partial class AddRowDataForm : BaseView
     {
-        public FamilyBasePointForm()
+        public AddRowDataForm()
         {
             InitializeMaterialDesign();
             InitializeComponent();

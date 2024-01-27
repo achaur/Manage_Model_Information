@@ -5,7 +5,6 @@ C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Fonts.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Colors.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Styles\Window.baml
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\FamilyBasePointForm.g.cs
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\ReportForm.g.cs
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\ResultForm.g.cs
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\GeneratedInternalTypeHelper.g.cs
@@ -22,7 +21,6 @@ C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Styles\RadioButton.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Styles\TextBlock.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Styles\TextBox.baml
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\FamilyBasePointForm.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\ReportForm.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\ResultForm.baml
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\ManageInfo Windows.g.resources
@@ -32,3 +30,8 @@ C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\ManageInfo Windows.csproj.CopyComplete
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\ManageInfo Windows.dll
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\ManageInfo Windows.pdb
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\ManageInformationForm.g.cs
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\ManageInformationForm.baml
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Styles\ListView.baml
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\AddRowDataForm.g.cs
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Windows\obj\2022\Views\AddRowDataForm.baml

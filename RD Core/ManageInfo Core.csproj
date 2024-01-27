@@ -116,7 +116,7 @@
     <Compile Include="CommandsAvailability\ViewIsSection.cs" />
     <Compile Include="CommandsAvailability\ViewIsSectionOrElevation.cs" />
     <Compile Include="CommandsAvailability\ViewIsStandard.cs" />
-    <Compile Include="Commands\FamilyBasePoint.cs" />
+    <Compile Include="Commands\ManageInformation.cs" />
     <Compile Include="Commands\BaseCommand.cs" />
     <Compile Include="CoreAssembly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

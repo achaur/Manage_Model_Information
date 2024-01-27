@@ -1,0 +1,85 @@
+﻿<local:BaseView x:Class="ManageInfo_Windows.AddRowDataForm"
+        x:Name="AddRowDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ManageInfo_Windows"
+        mc:Ignorable="d"
+        
+        WindowStyle="None"
+        Style="{DynamicResource SWindow}"
+        Title="Manage Model Information"
+        WindowStartupLocation="CenterScreen"
+        Width="385"
+        Height="450"
+        
+        d:DataContext="{d:DesignInstance Type=local:ManageInformationViewModel}"
+        MouseLeftButtonDown="FormMouseMove">
+
+    <local:BaseView.Resources>
+        <ResourceDictionary Source="../Resources.xaml" />
+    </local:BaseView.Resources>
+
+    <Grid Background="{x:Null}">
+        <materialDesign:Card UniformCornerRadius="36">
+            <materialDesign:Card.Background>
+                <LinearGradientBrush StartPoint="0.5, 0" EndPoint="0.5, 1">
+                    <GradientStop Color="{Binding Source={StaticResource SColorBackgroundMain1}, Path=Color}" Offset="1" />
+                    <GradientStop Color="{Binding Source={StaticResource SColorBackgroundMain2}, Path=Color}" Offset="0" />
+                </LinearGradientBrush>
+            </materialDesign:Card.Background>
+        </materialDesign:Card>
+
+        <Grid Background="{x:Null}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="72" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="72" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <TextBlock Style="{StaticResource STextBlock}" Text="Add Row Data" />
+                <Button x:Name="buttonCancel"
+                        Command="{Binding CloseCommand, Mode=OneWay}"
+                        CommandParameter="{Binding ElementName=AddRowDataWindow}"
+                        Style="{StaticResource SButtonClose}" />
+            </Grid>
+            
+            <Grid Grid.Row="1" Margin="20,0,20,0">
+                <StackPanel>
+                    <Label Content="Column 1:" Style="{StaticResource SLabel}"/>
+                    <TextBox Style="{StaticResource STextBox}" Height="30"/>
+                    <Label Content="Column 2:" Style="{StaticResource SLabel}"/>
+                    <TextBox Style="{StaticResource STextBox}" Height="30"/>
+                    <Label Content="Column 3:" Style="{StaticResource SLabel}"/>
+                    <TextBox Style="{StaticResource STextBox}" Height="30"/>
+                    <Label Content="Column 4:" Style="{StaticResource SLabel}"/>
+                    <TextBox Style="{StaticResource STextBox}" Height="30"/>
+                    <Label Content="Column 5:" Style="{StaticResource SLabel}"/>
+                    <TextBox Style="{StaticResource STextBox}" Height="30"/>
+                    <Label Content="{Binding InputCorrect, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                </StackPanel>
+            </Grid>
+            
+            <Grid Grid.Row="2" Margin="10,0,10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid Grid.Column="2">
+                    <Button x:Name="buttonSave"
+                        Command="{Binding RunCommand}"
+                        CommandParameter="{Binding ElementName=AddRowDataWindow}"
+                        Content="Save" ToolTip="Run"
+                        Style="{StaticResource SButtonSelect}"
+                            IsEnabled="{Binding InputCorrect}">
+                    </Button>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</local:BaseView>

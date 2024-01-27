@@ -122,7 +122,6 @@ namespace ManageInfo_Core
         #region INOTIFYPROPERTYCHANGED
 
         public event PropertyChangedEventHandler PropertyChanged;
-        public event EventHandler CanExecuteChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)
         {

@@ -2,21 +2,21 @@
 <RevitAddIns>
 	<AddIn Type="Application">
 		<Name>RD</Name>
-		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2020\RD.dll</Assembly>
+		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2022\ManageInfo.dll</Assembly>
 		<AddInId>
-			5CB946E7-F6F5-4AAD-8F3F-F651CDFF3D39
+			D0824526-643A-4322-BC6D-4B0B4C124054
 		</AddInId>
-		<FullClassName>RD.Main</FullClassName>
+		<FullClassName>ManageInfo.Main</FullClassName>
 		<VendorId>Pinchuk</VendorId>
 		<VendorDescription>42</VendorDescription>
 	</AddIn>
 	<AddIn Type="DBApplication">
 		<Name>RD DB</Name>
-		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2020\RD.dll</Assembly>
+		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2022\ManageInfo.dll</Assembly>
 		<AddInId>
-			64698C94-582F-4F6D-A122-BBAF9CE127B4
+			036B446C-4A54-4F46-AA58-0CE4101395CD
 		</AddInId>
-		<FullClassName>RD.ExternalDBAppGroupRestore</FullClassName>
+		<FullClassName>ManageInfo.ExternalDBAppGroupRestore</FullClassName>
 		<Text>Group Restore in a Document</Text>
 		<Description>Event Register for Group Restore</Description>
 		<VendorId>Pinchuk</VendorId>
