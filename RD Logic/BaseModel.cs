@@ -5,6 +5,7 @@ using System.ComponentModel;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using ManageInfo_Logic;
 
 namespace ManageInfo_Core
 {
@@ -115,7 +116,6 @@ namespace ManageInfo_Core
 
 
         private protected virtual string GetRunResult() => "";
-        private protected virtual DataSet GetRunReport(IEnumerable<ReportMessage> reportMessages) => null;
 
         #endregion
 

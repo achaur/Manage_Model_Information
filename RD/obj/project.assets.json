@@ -34,61 +34,48 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "ManageInfo Core/1.0.0": {
+      "ManageInfo.Core/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo Windows": "1.0.0"
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Windows": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         }
       },
-      "ManageInfo Logic/1.0.0": {
+      "ManageInfo.Logic/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         }
       },
-      "ManageInfo Resources/1.0.0": {
+      "ManageInfo.Resources/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         }
       },
-      "ManageInfo UI/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "ManageInfo Core": "1.0.0",
-          "ManageInfo Resources": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        }
-      },
-      "ManageInfo Windows/1.0.0": {
+      "ManageInfo.UI/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo.Utils": "1.0.0"
+          "ManageInfo.Core": "1.0.0",
+          "ManageInfo.Resources": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         }
       },
       "ManageInfo.Utils/1.0.0": {
@@ -98,6 +85,19 @@
         },
         "runtime": {
           "bin/placeholder/ManageInfo.Utils.dll": {}
+        }
+      },
+      "ManageInfo.Windows/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
         }
       }
     },
@@ -134,61 +134,48 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "ManageInfo Core/1.0.0": {
+      "ManageInfo.Core/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo Windows": "1.0.0"
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Windows": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         }
       },
-      "ManageInfo Logic/1.0.0": {
+      "ManageInfo.Logic/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         }
       },
-      "ManageInfo Resources/1.0.0": {
+      "ManageInfo.Resources/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         }
       },
-      "ManageInfo UI/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "ManageInfo Core": "1.0.0",
-          "ManageInfo Resources": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        }
-      },
-      "ManageInfo Windows/1.0.0": {
+      "ManageInfo.UI/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo.Utils": "1.0.0"
+          "ManageInfo.Core": "1.0.0",
+          "ManageInfo.Resources": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         }
       },
       "ManageInfo.Utils/1.0.0": {
@@ -198,6 +185,19 @@
         },
         "runtime": {
           "bin/placeholder/ManageInfo.Utils.dll": {}
+        }
+      },
+      "ManageInfo.Windows/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
         }
       }
     },
@@ -234,61 +234,48 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "ManageInfo Core/1.0.0": {
+      "ManageInfo.Core/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo Windows": "1.0.0"
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Windows": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         }
       },
-      "ManageInfo Logic/1.0.0": {
+      "ManageInfo.Logic/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         }
       },
-      "ManageInfo Resources/1.0.0": {
+      "ManageInfo.Resources/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         }
       },
-      "ManageInfo UI/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "ManageInfo Core": "1.0.0",
-          "ManageInfo Resources": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        }
-      },
-      "ManageInfo Windows/1.0.0": {
+      "ManageInfo.UI/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo.Utils": "1.0.0"
+          "ManageInfo.Core": "1.0.0",
+          "ManageInfo.Resources": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         }
       },
       "ManageInfo.Utils/1.0.0": {
@@ -298,6 +285,19 @@
         },
         "runtime": {
           "bin/placeholder/ManageInfo.Utils.dll": {}
+        }
+      },
+      "ManageInfo.Windows/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
         }
       }
     },
@@ -334,61 +334,48 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "ManageInfo Core/1.0.0": {
+      "ManageInfo.Core/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo Windows": "1.0.0"
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Windows": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Core.dll": {}
+          "bin/placeholder/ManageInfo.Core.dll": {}
         }
       },
-      "ManageInfo Logic/1.0.0": {
+      "ManageInfo.Logic/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Logic.dll": {}
+          "bin/placeholder/ManageInfo.Logic.dll": {}
         }
       },
-      "ManageInfo Resources/1.0.0": {
+      "ManageInfo.Resources/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Resources.dll": {}
+          "bin/placeholder/ManageInfo.Resources.dll": {}
         }
       },
-      "ManageInfo UI/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "ManageInfo Core": "1.0.0",
-          "ManageInfo Resources": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ManageInfo UI.dll": {}
-        }
-      },
-      "ManageInfo Windows/1.0.0": {
+      "ManageInfo.UI/1.0.0": {
         "type": "project",
         "dependencies": {
-          "ManageInfo Logic": "1.0.0",
-          "ManageInfo.Utils": "1.0.0"
+          "ManageInfo.Core": "1.0.0",
+          "ManageInfo.Resources": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ManageInfo Windows.dll": {}
+          "bin/placeholder/ManageInfo.UI.dll": {}
         }
       },
       "ManageInfo.Utils/1.0.0": {
@@ -398,6 +385,19 @@
         },
         "runtime": {
           "bin/placeholder/ManageInfo.Utils.dll": {}
+        }
+      },
+      "ManageInfo.Windows/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ManageInfo.Logic": "1.0.0",
+          "ManageInfo.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageInfo.Windows.dll": {}
         }
       }
     }
@@ -463,41 +463,41 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "ManageInfo Core/1.0.0": {
+    "ManageInfo.Core/1.0.0": {
       "type": "project",
-      "path": "../RD Core/ManageInfo Core.csproj",
-      "msbuildProject": "../RD Core/ManageInfo Core.csproj"
+      "path": "../RD Core/ManageInfo.Core.csproj",
+      "msbuildProject": "../RD Core/ManageInfo.Core.csproj"
     },
-    "ManageInfo Logic/1.0.0": {
+    "ManageInfo.Logic/1.0.0": {
       "type": "project",
-      "path": "../RD Logic/ManageInfo Logic.csproj",
-      "msbuildProject": "../RD Logic/ManageInfo Logic.csproj"
+      "path": "../RD Logic/ManageInfo.Logic.csproj",
+      "msbuildProject": "../RD Logic/ManageInfo.Logic.csproj"
     },
-    "ManageInfo Resources/1.0.0": {
+    "ManageInfo.Resources/1.0.0": {
       "type": "project",
-      "path": "../RD Resources/ManageInfo Resources.csproj",
-      "msbuildProject": "../RD Resources/ManageInfo Resources.csproj"
+      "path": "../RD Resources/ManageInfo.Resources.csproj",
+      "msbuildProject": "../RD Resources/ManageInfo.Resources.csproj"
     },
-    "ManageInfo UI/1.0.0": {
+    "ManageInfo.UI/1.0.0": {
       "type": "project",
-      "path": "../RD UI/ManageInfo UI.csproj",
-      "msbuildProject": "../RD UI/ManageInfo UI.csproj"
-    },
-    "ManageInfo Windows/1.0.0": {
-      "type": "project",
-      "path": "../RD Windows/ManageInfo Windows.csproj",
-      "msbuildProject": "../RD Windows/ManageInfo Windows.csproj"
+      "path": "../RD UI/ManageInfo.UI.csproj",
+      "msbuildProject": "../RD UI/ManageInfo.UI.csproj"
     },
     "ManageInfo.Utils/1.0.0": {
       "type": "project",
       "path": "../ManageInfo.Utils/ManageInfo.Utils.csproj",
       "msbuildProject": "../ManageInfo.Utils/ManageInfo.Utils.csproj"
+    },
+    "ManageInfo.Windows/1.0.0": {
+      "type": "project",
+      "path": "../RD Windows/ManageInfo.Windows.csproj",
+      "msbuildProject": "../RD Windows/ManageInfo.Windows.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "ManageInfo Core >= 1.0.0",
-      "ManageInfo UI >= 1.0.0",
+      "ManageInfo.Core >= 1.0.0",
+      "ManageInfo.UI >= 1.0.0",
       "MaterialDesignColors >= 2.0.9",
       "MaterialDesignThemes >= 4.6.1"
     ]
@@ -529,11 +529,11 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Core\\ManageInfo Core.csproj": {
-              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Core\\ManageInfo Core.csproj"
+            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Core\\ManageInfo.Core.csproj": {
+              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD Core\\ManageInfo.Core.csproj"
             },
-            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD UI\\ManageInfo UI.csproj": {
-              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD UI\\ManageInfo UI.csproj"
+            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD UI\\ManageInfo.UI.csproj": {
+              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\RD UI\\ManageInfo.UI.csproj"
             }
           }
         }

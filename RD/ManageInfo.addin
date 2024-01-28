@@ -16,7 +16,7 @@
 		<AddInId>
 			036B446C-4A54-4F46-AA58-0CE4101395CD
 		</AddInId>
-		<FullClassName>ManageInfo.ExternalDBAppGroupRestore</FullClassName>
+		<FullClassName>ManageInfo.ExternalDBConduitsChanged</FullClassName>
 		<Text>Group Restore in a Document</Text>
 		<Description>Event Register for Group Restore</Description>
 		<VendorId>Pinchuk</VendorId>

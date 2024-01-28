@@ -1,6 +1,6 @@
 ﻿using Autodesk.Revit.UI;
 
-namespace RD_UI
+namespace ManageInfo_UI
 {
     // Represents Revit pull-down button data model
     public class RevitPulldownButtonDataModel

@@ -56,8 +56,8 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RD Resources\ManageInfo Resources.csproj">
-      <Name>ManageInfo Resources</Name>
+    <ProjectReference Include="..\RD Resources\ManageInfo.Resources.csproj">
+      <Name>ManageInfo.Resources</Name>
       <Project>{2f6cf1c2-84b4-4342-895d-277c481dcdd1}</Project>
       <Private>True</Private>
       <DoNotHarvest>True</DoNotHarvest>

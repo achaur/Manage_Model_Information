@@ -46,16 +46,6 @@ namespace ManageInfo_Windows
             }
         }
 
-        private List<int> selectedElement;
-        public List<int> SelectedElement
-        {
-            get { return selectedElement; }
-            set {
-                selectedElement = value;
-                OnPropertyChanged(nameof(SelectedElement));
-            }
-        }
-
         private bool inputCorrect;
         public bool InputCorrect
         {
@@ -67,9 +57,9 @@ namespace ManageInfo_Windows
             }
         }
 
-        private bool hideCalculations;
+        private Visibility hideCalculations;
 
-        public bool HideCalculations
+        public Visibility HideCalculations
         {
             get { return hideCalculations; }
             set {
@@ -97,7 +87,7 @@ namespace ManageInfo_Windows
         #region METHODS
         public override void SetInitialData()
         {
-            HideCalculations = true;
+            HideCalculations = Visibility.Hidden;
             Items = ManageData.GetRowsData();
             ManageData.UpdateCalculations();
             Model = (ManageInformationModel)BaseModel;
@@ -125,7 +115,7 @@ namespace ManageInfo_Windows
 
         private protected override void RunAction(Window window)
         {
-            Model.SelectedElement = SelectedElement;
+            Model.RowData = ManageData.RowDataToStringLists();
 
             Model.Run();
             CloseAction(window);
@@ -133,21 +123,11 @@ namespace ManageInfo_Windows
 
         private protected override void CloseAction(Window window)
         {
-            if (window != null)
+            if (null != window)
             {
                 Closed = true;
                 window.Close();
             }
-        }
-
-        private string CreateFileName()
-        {
-            DateTime dateTime = DateTime.Now;
-            string timeString = dateTime.ToShortTimeString();
-            string datestring = dateTime.ToShortDateString();
-            string res = datestring + "_" + timeString + "_";
-
-            return res;
         }
 
         private void ImportExcelAction(Window window)
@@ -155,7 +135,7 @@ namespace ManageInfo_Windows
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
                 Title = "Please select a folder...",
-                Filter = "xlsx Source Files | *.xlsx",
+                Filter = "csv Source Files | *.csv",
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
             };
             bool? success = openFileDialog.ShowDialog();
@@ -163,7 +143,12 @@ namespace ManageInfo_Windows
             if (success == true)
             {
                 string pathName = openFileDialog.FileName;
-                string fileName = openFileDialog.SafeFileName;
+                List<List<string>> readData =  ExcelUtils.ExcelToRowData(pathName);
+                List<RowData> rowsToAdd = ManageData.StringListsToRowData(readData);
+                foreach (RowData row in rowsToAdd)
+                { 
+                    ManageData.AddRowData(row);
+                }
             }
             else
             {
@@ -176,9 +161,9 @@ namespace ManageInfo_Windows
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
                 Title = "Please select a folder...",
-                Filter = "xlsx files (*.xlsx)|*.xlsx",
+                Filter = "csv files | *.csv",
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-                FileName = CreateFileName(),
+                FileName = FileUtils.CreateFileName(),
                 CheckFileExists = false,
                 AddExtension = true
             };
@@ -187,38 +172,28 @@ namespace ManageInfo_Windows
             {
                 string filePath = saveFileDialog.FileName;
                 filePath = filePath.Replace("\\", "/");
-                using (StreamWriter writer = new StreamWriter(filePath))
-                {
-                    List<List<string>> rowDataConverted = ManageData.RowDataToStringLists();
-                    ExcelUtils.RowDataToExcel(filePath, rowDataConverted);
-                    // Write data to excel file
-                }
+                
+                // Write data to excel file
+                List<List<string>> rowDataConverted = ManageData.RowDataToStringLists();
+                ExcelUtils.RowDataToExcel(filePath, rowDataConverted);
             }
         }
 
         private void AddRowDataAction()
         {
-            ManageData.AddRowData(new RowData()
-            {
-                _column0 = "Id",
-                _column1 = "new",
-                _column2 = "new",
-                _column3 = "new",
-                _column4 = "new",
-                _column5 = "new"
-            });
+            ManageData.AddRowData(new RowData());
             ManageData.UpdateCalculations();
         }
 
         private void SetCalculationsVisibilityAction()
         {
-            if (HideCalculations == true)
+            if (HideCalculations == Visibility.Visible)
             {
-                HideCalculations = false;
+                HideCalculations = Visibility.Hidden;
             }
             else
             { 
-                HideCalculations = true;
+                HideCalculations = Visibility.Visible;
             }
         }
 

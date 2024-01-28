@@ -3,7 +3,7 @@ using Autodesk.Revit.UI;
 using ManageInfo_Core;
 using ManageInfo_Resources;
 
-namespace RD_UI
+namespace ManageInfo_UI
 {
     // Revit push button methods
     public static class RevitPushButton

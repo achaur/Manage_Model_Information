@@ -1,6 +1,6 @@
 ﻿using Autodesk.Revit.UI;
 
-namespace RD_UI
+namespace ManageInfo_UI
 {
     // Represents Revit push button data model
     public class RevitPushButtonDataModel

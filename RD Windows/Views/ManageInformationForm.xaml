@@ -54,7 +54,7 @@
                     <ColumnDefinition Width="80"/>
                     <ColumnDefinition Width="80"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="25"/>
                     <ColumnDefinition Width="80"/>
                     <ColumnDefinition Width="80"/>
                     <ColumnDefinition Width="80"/>
@@ -122,11 +122,6 @@
                         <DataGridTextColumn Header="CALCULATED 5" Binding="{Binding Path=_calculation5}" IsReadOnly="true"
                                             Visibility="{Binding HideCalculations, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
                     </DataGrid.Columns>
-                    <DataGrid.ContextMenu>
-                        <ContextMenu>
-                            <MenuItem Header="Copy" Command="ApplicationCommands.Copy" />
-                        </ContextMenu>
-                    </DataGrid.ContextMenu>
                 </DataGrid>
                 <!--
                 <ListView Name="UserList" SelectionMode="Multiple" 
@@ -182,7 +177,8 @@
                         Command="{Binding RunCommand}"
                         CommandParameter="{Binding ElementName=ManageInformationWindow}"
                         Content="Save" ToolTip="Run"
-                        Style="{StaticResource SButtonSelect}">
+                        Style="{StaticResource SButtonSelect}"
+                            IsEnabled="{Binding InputCorrect, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
                     </Button>
                 </Grid>
             </Grid>

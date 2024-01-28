@@ -91,12 +91,13 @@ namespace ManageInfo_Windows.ViewModels
                     RowData rowData = new RowData()
                     { 
                         _column0 = data[0],
-                        _column1= data[1],
-                        _column2= data[2],
-                        _column3= data[3],
-                        _column4= data[4],
-                        _column5= data[5]
+                        _column1 = data[1],
+                        _column2 = data[2],
+                        _column3 = data[3],
+                        _column4 = data[4],
+                        _column5 = data[5]
                     };
+
                     dataConverted.Add(rowData);
                 }
                 return dataConverted;

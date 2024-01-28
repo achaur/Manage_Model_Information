@@ -66,19 +66,19 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ExternalDBAppGroupRestore.cs" />
+    <Compile Include="ExternalDBConduitsChanged.cs" />
     <Compile Include="SetupInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Main.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RD Core\ManageInfo Core.csproj">
+    <ProjectReference Include="..\RD Core\ManageInfo.Core.csproj">
       <Project>{cc132aca-21dd-4e90-b767-f7fc7b339fca}</Project>
-      <Name>ManageInfo Core</Name>
+      <Name>ManageInfo.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RD UI\ManageInfo UI.csproj">
+    <ProjectReference Include="..\RD UI\ManageInfo.UI.csproj">
       <Project>{ee61c151-bf4c-41a7-b29c-45d042e6ea0f}</Project>
-      <Name>ManageInfo UI</Name>
+      <Name>ManageInfo.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

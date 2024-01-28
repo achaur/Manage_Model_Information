@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OfficeOpenXml;
+using Microsoft.VisualBasic.FileIO;
 
 namespace ManageInfo_Utils
 {
@@ -13,46 +13,40 @@ namespace ManageInfo_Utils
     {
         public static List<List<string>> ExcelToRowData(string filePath)
         {
-            List<List<string>> parsedExcelFile = new List<List<string>>();
+            List<List<string>> data = new List<List<string>>();
 
-            //parse file
+            using (TextFieldParser parser = new TextFieldParser(filePath))
+            {
+                parser.TextFieldType = FieldType.Delimited;
+                parser.SetDelimiters(",");
 
-            return parsedExcelFile;
+                while (!parser.EndOfData)
+                {
+                    // Read current line from the CSV file
+                    string[] fields = parser.ReadFields();
+
+                    // Convert the array of strings to a list and add to the result
+                    if (fields != null)
+                    {
+                        List<string> row = new List<string>(fields);
+                        data.Add(row);
+                    }
+                }
+            }
+
+            return data;
         }
         public static void RowDataToExcel(string filePath, List<List<string>> rowData)
         {
             try
             {
-                //parse file
-                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-                FileInfo fileInfo = new FileInfo(filePath);
-
-                using (ExcelPackage package = new ExcelPackage(fileInfo))
+                using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    // Add a new worksheet to the Excel file
-                    ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Sheet1");
-
-                    object[,] dataToWriteToExcel = new object[rowData.Count, 11];
-
-                    // Sample data to write to the worksheet
-                    List<object[]> data = new List<object[]>();
-
                     foreach (List<string> row in rowData)
                     {
-                        data.Add(row.ToArray()); 
+                        // Join the elements of the row with commas and write to the file
+                        writer.WriteLine(string.Join(",", row));
                     }
-
-                    List<object[]> d = new List<object[]>();
-                    d.Add(new object[1] { "f" });
-
-                    // Define the range where the data will be written
-                    string writeRange = "A1";
-
-                    // Write data to the worksheet
-                    worksheet.Cells[writeRange].LoadFromArrays(d);
-
-                    // Save the changes to the Excel file
-                    package.Save();
                 }
             }
             catch(Exception ex)

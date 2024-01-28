@@ -8,17 +8,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo Windows", "RD Windows\ManageInfo Windows.csproj", "{799942AC-6D9B-44E4-AB3F-1191B32F8CD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo.Windows", "RD Windows\ManageInfo.Windows.csproj", "{799942AC-6D9B-44E4-AB3F-1191B32F8CD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo", "RD\ManageInfo.csproj", "{72B35F18-B470-4DDD-9974-BF064A31F441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo Core", "RD Core\ManageInfo Core.csproj", "{CC132ACA-21DD-4E90-B767-F7FC7B339FCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo.Core", "RD Core\ManageInfo.Core.csproj", "{CC132ACA-21DD-4E90-B767-F7FC7B339FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo UI", "RD UI\ManageInfo UI.csproj", "{EE61C151-BF4C-41A7-B29C-45D042E6EA0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo.UI", "RD UI\ManageInfo.UI.csproj", "{EE61C151-BF4C-41A7-B29C-45D042E6EA0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo Logic", "RD Logic\ManageInfo Logic.csproj", "{654795BD-31CC-451A-B3FE-0FB14C765E48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo.Logic", "RD Logic\ManageInfo.Logic.csproj", "{654795BD-31CC-451A-B3FE-0FB14C765E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo Resources", "RD Resources\ManageInfo Resources.csproj", "{2F6CF1C2-84B4-4342-895D-277C481DCDD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageInfo.Resources", "RD Resources\ManageInfo.Resources.csproj", "{2F6CF1C2-84B4-4342-895D-277C481DCDD1}"
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "ManageInfo Setup", "RD Setup\ManageInfo Setup.wixproj", "{B27D10B0-6FBD-4ADD-8CA9-4B41D67F0C81}"
 EndProject

@@ -2,7 +2,7 @@
 using Autodesk.Revit.UI;
 using ManageInfo_Resources;
 
-namespace RD_UI
+namespace ManageInfo_UI
 {
     // Revit pull-down button methods
     public static class RevitPulldownButton

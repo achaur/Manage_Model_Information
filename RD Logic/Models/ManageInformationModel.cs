@@ -20,60 +20,6 @@ namespace ManageInfo_Logic
     {
         #region PROPERTIES
 
-        private List<int> selectedElement;
-        public List<int> SelectedElement
-        {
-            get { return selectedElement; }
-            set { selectedElement = value; }
-        }
-
-        private int transparencyNumber;
-
-        public int TransparencyNumber
-        {
-            get { return transparencyNumber; }
-            set
-            {
-                transparencyNumber = value;
-                OnPropertyChanged(nameof(TransparencyNumber));
-            }
-        }
-
-        private string familyName;
-
-        public string FamilyName
-        {
-            get { return familyName; }
-            set
-            {
-                familyName = value;
-                OnPropertyChanged(nameof(FamilyName));
-            }
-        }
-
-        private bool halftone;
-
-        public bool Halftone
-        {
-            get { return halftone; }
-            set
-            {
-                halftone = value;
-                OnPropertyChanged(nameof(Halftone));
-            }
-        }
-
-        private string familyShortName;
-
-        public string FamilyShortName
-        {
-            get { return familyShortName; }
-            set
-            {
-                familyShortName = value;
-            }
-        }
-
         public List<List<string>> RowData { get; set; }
 
         #endregion
@@ -81,46 +27,44 @@ namespace ManageInfo_Logic
         #region METHODS
         private protected override void TryExecute()
         {
-            //associate retrieved information with current document
+            if (null == RowData || RowData?.Count == 0)
+                return;
+
+            //associate retrieved information with project base point
             Transaction createSchemaAndStoreData = new Transaction(Doc, "tCreateAndStore");
             createSchemaAndStoreData.Start();
+
             SchemaBuilder schemaBuilder =
-                    new SchemaBuilder(new Guid("720080CB-DA99-40DC-9415-E53F280AA1F0"));
+                    new SchemaBuilder(new Guid("971AFB6F-9A52-4DCD-BD99-B184AA12455F"));
             schemaBuilder.SetReadAccessLevel(AccessLevel.Public); // allow anyone to read the object
-            schemaBuilder.SetWriteAccessLevel(AccessLevel.Vendor); // restrict writing to this vendor only
+            schemaBuilder.SetWriteAccessLevel(AccessLevel.Public); // restrict writing to this vendor only
             schemaBuilder.SetVendorId("ADSK"); // required because of restricted write-access
-            schemaBuilder.SetSchemaName("ModelInformation");
+            string schemaName = ManageExtensibleStorageUtils._schemaName;
+            schemaBuilder.SetSchemaName(schemaName);
+
             // create a field to store a data
-            FieldBuilder fieldBuilder =
-                    schemaBuilder.AddSimpleField("ModelInformation", typeof(string));
-            fieldBuilder.SetSpec(SpecTypeId.Length);
-
-
-            fieldBuilder.SetDocumentation("A stored location value representing a wiring splice in a wall.");
+            schemaBuilder.AddSimpleField(schemaName, typeof(string));
 
             Schema schema = schemaBuilder.Finish(); // register the Schema object
             Entity entity = new Entity(schema); // create an entity (object) for this schema (class)
                                                 // get the field from the schema
-            Field fieldSpliceLocation = schema.GetField("ModelInformation");
+            Field fieldSpliceLocation = schema.GetField(schemaName);
             // set the value for this entity
-            entity.Set<string>(fieldSpliceLocation, "", UnitTypeId.Meters);
+            entity.Set<string>(fieldSpliceLocation, "g", UnitTypeId.Meters);
 
-            // Use a filtered element collector to find Project Base Point
-            FilteredElementCollector collector = new FilteredElementCollector(Doc)
-                .OfCategory(BuiltInCategory.OST_SharedBasePoint)
-                .WhereElementIsNotElementType();
-
-            // Check if there is a Project Base Point in the model
-            Element projectBasePoint = collector.FirstOrDefault();
+            Element elementToAssociateWithData = 
+                ManageExtensibleStorageUtils.GetELementAssociatedWithData(Doc);
 
             //bind data with element that always exists in the project so the data is not lost
-            projectBasePoint.SetEntity(entity); // store the entity in the element
+            elementToAssociateWithData.SetEntity(entity); // store the entity in the element
 
-            // get the data back from the wall
-            Entity retrievedEntity = projectBasePoint.GetEntity(schema);
-            XYZ retrievedData =
-                    retrievedEntity.Get<XYZ>(schema.GetField("WireSpliceLocation"),
+            // get the data back from the element
+            Entity retrievedEntity = elementToAssociateWithData.GetEntity(schema);
+
+            string retrievedData =
+                    retrievedEntity.Get<string>(schema.GetField(schemaName),
                     UnitTypeId.Meters);
+
             createSchemaAndStoreData.Commit();
         }
 

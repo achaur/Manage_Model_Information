@@ -1,10 +1,10 @@
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\RD UI.dll.config
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\RD UI.dll
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\RD UI.pdb
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\ManageInfo UI.csproj.AssemblyReference.cache
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\RD_UI.Properties.Resources.resources
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\ManageInfo UI.csproj.GenerateResource.cache
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\ManageInfo UI.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\ManageInfo UI.csproj.CopyComplete
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\RD UI.dll
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\RD UI.pdb
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\RD UI.dll
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\RD UI.pdb
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD UI\obj\2022\ManageInfo UI.csproj.CopyComplete
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\RD UI.dll.config
