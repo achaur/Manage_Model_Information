@@ -106,23 +106,23 @@
                               Margin="18,0"
                               Style="{StaticResource SDataGridSimple}">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ID" Binding="{Binding [0]}"/>
-                        <DataGridTextColumn Header="Column 1" Binding="{Binding [1]}"/>
-                        <DataGridTextColumn Header="Column 2" Binding="{Binding [2]}"/>
-                        <DataGridTextColumn Header="Column 3" Binding="{Binding [3]}"/>
-                        <DataGridTextColumn Header="Column 4" Binding="{Binding [4]}"/>
-                        <DataGridTextColumn Header="Column 5" Binding="{Binding [5]}"/>
+                        <DataGridTextColumn Header="ID"       Binding="{Binding [0], Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Column 1" Binding="{Binding [1], Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Column 2" Binding="{Binding [2], Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Column 3" Binding="{Binding [3], Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Column 4" Binding="{Binding [4], Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Column 5" Binding="{Binding [5], Mode=TwoWay}"/>
                         <DataGridTextColumn x:Name="CalculationColumn1"
-                                            Header="Calculated 1" Binding="{Binding [6]}">
+                                            Header="Calculated 1" Binding="{Binding [6], Mode=TwoWay}">
                         </DataGridTextColumn>
                         <DataGridTextColumn x:Name="CalculationColumn2"
-                                            Header="Calculated 2" Binding="{Binding [7]}"/>
+                                            Header="Calculated 2" Binding="{Binding [7], Mode=TwoWay}"/>
                         <DataGridTextColumn x:Name="CalculationColumn3" 
-                            Header="Calculated 3" Binding="{Binding [8]}"/>
+                            Header="Calculated 3" Binding="{Binding [8], Mode=TwoWay}"/>
                         <DataGridTextColumn x:Name="CalculationColumn4" 
-                            Header="Calculated 4" Binding="{Binding [9]}"/>
+                            Header="Calculated 4" Binding="{Binding [9], Mode=TwoWay}"/>
                         <DataGridTextColumn x:Name="CalculationColumn5"
-                            Header="Calculated 5" Binding="{Binding [10]}"/>
+                            Header="Calculated 5" Binding="{Binding [10], Mode=TwoWay}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>

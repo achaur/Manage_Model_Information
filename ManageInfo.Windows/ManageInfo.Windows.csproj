@@ -129,11 +129,9 @@
     <Compile Include="Commands\CommandWindow.cs" />
     <Compile Include="Converters\MultivalueTextBoxesConverter.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
-    <Compile Include="ViewModels\ManageData.cs" />
     <Compile Include="ViewModels\ManageInformationViewModel.cs" />
     <Compile Include="ViewModels\ReportViewModel.cs" />
     <Compile Include="ViewModels\ResultViewModel.cs" />
-    <Compile Include="ViewModels\RowData.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\ManageInformationForm.xaml.cs">
       <DependentUpon>ManageInformationForm.xaml</DependentUpon>

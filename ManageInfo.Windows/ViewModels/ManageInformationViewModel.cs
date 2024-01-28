@@ -5,7 +5,6 @@ using System.Windows;
 using System.Windows.Input;
 using ManageInfo_Logic;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
-using ManageInfo_Windows.ViewModels;
 using System.Collections.ObjectModel;
 using ManageInfo_Utils;
 using System.Windows.Forms;
@@ -204,10 +203,19 @@ namespace ManageInfo_Windows
 
         private void AddRowDataAction()
         {
-            ObservableCollection<string> blankRow = 
-                new ObservableCollection<string>();
-            Items.Add(blankRow);
+            ObservableCollection<string> defaultRow = CreateDefaultRow();
+            Items.Add(defaultRow);
             NumberOfRows++;
+        }
+
+        public ObservableCollection<string> CreateDefaultRow()
+        {
+            ObservableCollection<string> defaultRow = new ObservableCollection<string>();
+            for (int i = 0; i < NumberOfColumns; i++)
+            {
+                defaultRow.Add("0");
+            }
+            return defaultRow;
         }
 
         private void DeleteRowDataAction()
