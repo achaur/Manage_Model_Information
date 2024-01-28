@@ -1,0 +1,8 @@
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\ManageInfo.addin
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\ManageInfo.dll
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\Output\2022\ManageInfo.pdb
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo\obj\2022\ManageInfo.csproj.AssemblyReference.cache
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo\obj\2022\ManageInfo.csproj.CoreCompileInputs.cache
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo\obj\2022\ManageInfo.csproj.CopyComplete
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo\obj\2022\ManageInfo.dll
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo\obj\2022\ManageInfo.pdb

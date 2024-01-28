@@ -1,0 +1,179 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\ManageInfo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj",
+        "projectName": "ManageInfo.Core",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Windows\\ManageInfo.Windows.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Windows\\ManageInfo.Windows.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj",
+        "projectName": "ManageInfo.Logic",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Resources\\ManageInfo.Resources.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Resources\\ManageInfo.Resources.csproj",
+        "projectName": "ManageInfo.Resources",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Resources\\ManageInfo.Resources.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj",
+        "projectName": "ManageInfo.UI",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Resources\\ManageInfo.Resources.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Resources\\ManageInfo.Resources.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj",
+        "projectName": "ManageInfo.Utils",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Windows\\ManageInfo.Windows.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Windows\\ManageInfo.Windows.csproj",
+        "projectName": "ManageInfo.Windows",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Windows\\ManageInfo.Windows.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Logic\\ManageInfo.Logic.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Utils\\ManageInfo.Utils.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\ManageInfo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\ManageInfo.csproj",
+        "projectName": "ManageInfo",
+        "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\ManageInfo.csproj",
+        "packagesPath": "C:\\Users\\a.chaur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\a.chaur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj"
+              },
+              "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj": {
+                "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
