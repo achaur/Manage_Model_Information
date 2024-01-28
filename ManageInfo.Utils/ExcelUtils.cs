@@ -11,9 +11,10 @@ namespace ManageInfo_Utils
 {
     public class ExcelUtils
     {
-        public static List<List<string>> ExcelToRowData(string filePath)
+        public static ObservableCollection<ObservableCollection<string>> ExcelToRowData(string filePath)
         {
-            List<List<string>> data = new List<List<string>>();
+            ObservableCollection<ObservableCollection<string>> data = 
+                new ObservableCollection<ObservableCollection<string>>();
 
             using (TextFieldParser parser = new TextFieldParser(filePath))
             {
@@ -28,7 +29,7 @@ namespace ManageInfo_Utils
                     // Convert the array of strings to a list and add to the result
                     if (fields != null)
                     {
-                        List<string> row = new List<string>(fields);
+                        ObservableCollection<string> row = new ObservableCollection<string>(fields);
                         data.Add(row);
                     }
                 }
@@ -36,13 +37,14 @@ namespace ManageInfo_Utils
 
             return data;
         }
-        public static void RowDataToExcel(string filePath, List<List<string>> rowData)
+        public static void RowDataToExcel(string filePath, 
+            ObservableCollection<ObservableCollection<string>> rowData)
         {
             try
             {
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    foreach (List<string> row in rowData)
+                    foreach (ObservableCollection<string> row in rowData)
                     {
                         // Join the elements of the row with commas and write to the file
                         writer.WriteLine(string.Join(",", row));

@@ -32,8 +32,8 @@
         <Setter Property="FontWeight" Value="Bold" />
 
         <Style.Resources>
-            <SolidColorBrush x:Key="MaterialDesignCheckBoxOff" Color="{Binding Source={StaticResource SColorControls}, Path=Color}" />
-            <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="{Binding Source={StaticResource SColorControls}, Path=Color}" />
+            <SolidColorBrush x:Key="MaterialDesignCheckBoxOff" Color="White" />
+            <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="White" />
         </Style.Resources>
     </Style>
 </ResourceDictionary>

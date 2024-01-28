@@ -78,10 +78,9 @@
                             Command="{Binding AddRowCommand}"/>
                 </Grid>
                 <Grid Grid.Column="3">
-                    <Button x:Name="SetVisible"
-                            Style="{StaticResource SButtonHide}"
-                            Command="{Binding SetCalculationsVisibility}"
-                            ToolTip="Hide Calculation Columns"/>
+                    <CheckBox Style="{StaticResource SCheckBoxBold}"
+                              Checked="HideCalculationColumns"
+                              Unchecked="UnHideCalculationColumns" VerticalAlignment="Center"/>
                 </Grid>
                 <Grid Grid.Column="0">
                     <Button x:Name="Import"
@@ -99,64 +98,34 @@
 
             <Grid Grid.Row="2">
                 <DataGrid x:Name="datagridReport"
+                              CanUserAddRows="False"
                               AutoGenerateColumns="false"
+                              SelectedIndex="{Binding SelectedIndex, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                               ItemsSource="{Binding Items, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
                               IsReadOnly="False"
                               Margin="18,0"
                               Style="{StaticResource SDataGridSimple}">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ID" Binding="{Binding Path=_column0}"/>
-                        <DataGridTextColumn Header="Column 1" Binding="{Binding Path=_column1}"/>
-                        <DataGridTextColumn Header="Column 2" Binding="{Binding Path=_column2}"/>
-                        <DataGridTextColumn Header="Column 3" Binding="{Binding Path=_column3}"/>
-                        <DataGridTextColumn Header="Column 4" Binding="{Binding Path=_column4}"/>
-                        <DataGridTextColumn Header="Column 5" Binding="{Binding Path=_column5}"/>
-                        <DataGridTextColumn Header="CALCULATED 1" Binding="{Binding Path=_calculation1}" IsReadOnly="true"
-                                            Visibility="{Binding HideCalculations, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="CALCULATED 2" Binding="{Binding Path=_calculation2}" IsReadOnly="true"
-                                            Visibility="{Binding HideCalculations, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="CALCULATED 3" Binding="{Binding Path=_calculation3}" IsReadOnly="true"
-                                            Visibility="{Binding HideCalculations, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="CALCULATED 4" Binding="{Binding Path=_calculation4}" IsReadOnly="true"
-                                            Visibility="{Binding HideCalculations, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="CALCULATED 5" Binding="{Binding Path=_calculation5}" IsReadOnly="true"
-                                            Visibility="{Binding HideCalculations, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="ID" Binding="{Binding [0]}"/>
+                        <DataGridTextColumn Header="Column 1" Binding="{Binding [1]}"/>
+                        <DataGridTextColumn Header="Column 2" Binding="{Binding [2]}"/>
+                        <DataGridTextColumn Header="Column 3" Binding="{Binding [3]}"/>
+                        <DataGridTextColumn Header="Column 4" Binding="{Binding [4]}"/>
+                        <DataGridTextColumn Header="Column 5" Binding="{Binding [5]}"/>
+                        <DataGridTextColumn x:Name="CalculationColumn1"
+                                            Header="Calculated 1" Binding="{Binding [6]}">
+                        </DataGridTextColumn>
+                        <DataGridTextColumn x:Name="CalculationColumn2"
+                                            Header="Calculated 2" Binding="{Binding [7]}"/>
+                        <DataGridTextColumn x:Name="CalculationColumn3" 
+                            Header="Calculated 3" Binding="{Binding [8]}"/>
+                        <DataGridTextColumn x:Name="CalculationColumn4" 
+                            Header="Calculated 4" Binding="{Binding [9]}"/>
+                        <DataGridTextColumn x:Name="CalculationColumn5"
+                            Header="Calculated 5" Binding="{Binding [10]}"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <!--
-                <ListView Name="UserList" SelectionMode="Multiple" 
-                          SelectedIndex="{Binding SelectedIndex, UpdateSourceTrigger=PropertyChanged}"
-                              Margin="5,0,10,0" Background="Transparent" SelectedItem="{Binding SelectedElement}"
-                              ItemsSource="{Binding Items, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
-                              Style="{StaticResource MaterialDesignListView}">
-                    <ListView.View>
-                        <GridView>
-                            <GridViewColumn Header="Column 1"                   
-                                            DisplayMemberBinding="{Binding _column1}"/>
-                            <GridViewColumn Header="Column 2" 
-                                            DisplayMemberBinding="{Binding _column2}"/>
-                            <GridViewColumn Header="Column 3"
-                                            DisplayMemberBinding="{Binding _column3}"/>
-                            <GridViewColumn Header="Column 4"
-                                            DisplayMemberBinding="{Binding _column4}"/>
-                            <GridViewColumn Header="Column 5"
-                                            DisplayMemberBinding="{Binding _column5}"/>
-                            <GridViewColumn Header="Calculation 1"
-                                            DisplayMemberBinding="{Binding _calculation1}"/>
-                            <GridViewColumn Header="Calculation 2"
-                                            DisplayMemberBinding="{Binding _calculation2}"/>
-                            <GridViewColumn Header="Calculation 3"
-                                            DisplayMemberBinding="{Binding _calculation3}"/>
-                            <GridViewColumn Header="Calculation 4"
-                                            DisplayMemberBinding="{Binding _calculation4}"/>
-                            <GridViewColumn Header="Calculation 5"
-                                            DisplayMemberBinding="{Binding _calculation5}"/>
-                        </GridView>
-                    </ListView.View>
-                </ListView>
-                -->
             </Grid>
-
             <Grid Grid.Row="3" Margin="10,0,10,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

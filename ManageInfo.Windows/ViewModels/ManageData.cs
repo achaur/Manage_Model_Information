@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Dynamic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -10,36 +11,58 @@ namespace ManageInfo_Windows.ViewModels
 {
     public class ManageData
     {
-        public static ObservableCollection<RowData> _RowsData = new ObservableCollection<RowData>()
-        {
-            new RowData()
-            {
-                _column0 ="1",
-                _column1="example", 
-                _column2="example", 
-                _column3="example", 
-                _column4="example", 
-                _column5="example"
-            }
-        };
+        //initialize data
+        public static ObservableCollection<ObservableCollection<string>> _RowsData;
 
-        public static void UpdateCalculations()
+        public ManageData(int NumberOfColumns, int numberOfRows)
         {
-            foreach (RowData rowData in _RowsData)
+            _RowsData = new ObservableCollection<ObservableCollection<string>>();
+            for (int i = 0; i < numberOfRows; i++)
             {
-                rowData._calculation1 = rowData._column1;
-                rowData._calculation2 = rowData._column2;
-                rowData._calculation3 = rowData._column3;
-                rowData._calculation4 = rowData._column4;
-                rowData._calculation5 = rowData._column5;
+                var row = new ObservableCollection<string>();
+                for (int j = 0; j < NumberOfColumns; j++)
+                {
+                    row.Add("new"); // Initialize with some default values
+                }
+                _RowsData.Add(row);
             }
         }
 
-        public static ObservableCollection<RowData> GetRowsData()
+        public static void InitializeGrid(int NumberOfColumns, int numberOfRows)
+        {
+            _RowsData = new ObservableCollection<ObservableCollection<string>>();
+            for (int i = 0; i < numberOfRows; i++)
+            {
+                var row = new ObservableCollection<string>();
+                for (int j = 0; j < NumberOfColumns; j++)
+                {
+                    row.Add("new"); // Initialize with some default values
+                }
+                _RowsData.Add(row);
+            }
+        }
+
+        public static List<List<string>> ObservableCollectionToList()
+        {
+            List<List<string>> items = new List<List<string>>();
+
+            foreach (var row in _RowsData)
+            {
+                List<string> rowConverted = new List<string>();
+                foreach (var column in row)
+                {
+                    rowConverted.Add(column);
+                }
+                items.Add(rowConverted);
+            }
+            return items;
+        }
+
+        public static ObservableCollection<ObservableCollection<string>> GetRowsData()
         {
             return _RowsData;
         }
-        public static RowData GetRowDataAtIndex(int index)
+        public static ObservableCollection<string> GetRowDataAtIndex(int index)
         {
             if (null != _RowsData)
             {
@@ -51,33 +74,12 @@ namespace ManageInfo_Windows.ViewModels
             return null;
         }
 
-        public static List<List<string>> RowDataToStringLists()
-        { 
-            if (null != _RowsData)
-            { 
-                List<List<string>> dataConverted = new List<List<string>>();
-
-                foreach(RowData rowData in _RowsData)
-                {
-                    List<string> rowDataConverted = new List<string> 
-                    { 
-                        rowData._column0,
-                        rowData._column1,
-                        rowData._column2,
-                        rowData._column3,
-                        rowData._column4,
-                        rowData._column5,
-                        rowData._calculation1,
-                        rowData._calculation2,
-                        rowData._calculation3,
-                        rowData._calculation4,
-                        rowData._calculation5
-                    };
-                    dataConverted.Add(rowDataConverted);
-                }
-                return dataConverted;
+        public static void AddColumn()
+        {
+            foreach (ObservableCollection<string> rowData in _RowsData)
+            {
+                rowData.Add("new");
             }
-            return null;
         }
 
         public static List<RowData> StringListsToRowData(List<List<string>> excelData)
@@ -105,7 +107,7 @@ namespace ManageInfo_Windows.ViewModels
             return null;
         }
 
-        public static void AddRowData(RowData rowData)
+        public static void AddRowData(ObservableCollection<string> rowData)
         {
             _RowsData.Add(rowData);
         }

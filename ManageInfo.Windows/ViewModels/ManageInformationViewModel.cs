@@ -9,6 +9,7 @@ using ManageInfo_Windows.ViewModels;
 using System.Collections.ObjectModel;
 using ManageInfo_Utils;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace ManageInfo_Windows
 {
@@ -35,13 +36,12 @@ namespace ManageInfo_Windows
             set { _model = value; }
         }
 
-        private ObservableCollection<RowData> items;
-        public ObservableCollection<RowData> Items
+        private ObservableCollection<ObservableCollection<string>> items;
+        public ObservableCollection<ObservableCollection<string>> Items
         {
             get { return items; }
             set {
                 items = value;
-                ManageData.UpdateCalculations();
                 OnPropertyChanged(nameof(Items));
             }
         }
@@ -57,17 +57,27 @@ namespace ManageInfo_Windows
             }
         }
 
-        private Visibility hideCalculations;
-
-        public Visibility HideCalculations
+        private int numberOfColumns;
+        public int NumberOfColumns
         {
-            get { return hideCalculations; }
-            set {
-                hideCalculations = value;
-                OnPropertyChanged(nameof(HideCalculations));
+            get { return numberOfColumns; }
+            set
+            {
+                numberOfColumns = value;
+                OnPropertyChanged(nameof(NumberOfColumns));
             }
         }
 
+        private int numberOfRows;
+        public int NumberOfRows
+        {
+            get { return numberOfRows; }
+            set
+            {
+                numberOfRows = value;
+                OnPropertyChanged(nameof(NumberOfRows));
+            }
+        }
 
         #endregion
 
@@ -78,8 +88,6 @@ namespace ManageInfo_Windows
             ImportExcelCommand = new CommandWindow(ImportExcelAction);
             ExportExcelCommand = new CommandGeneric(ExportExcelAction);
             AddRowCommand = new CommandGeneric(AddRowDataAction);
-            SetCalculationsVisibility = new CommandGeneric(SetCalculationsVisibilityAction);
-
             RemoveRowCommand = new CommandGeneric(DeleteRowDataAction);
             CopyRowCommand = new CommandGeneric(CopyRowDataAction);
         }
@@ -87,11 +95,28 @@ namespace ManageInfo_Windows
         #region METHODS
         public override void SetInitialData()
         {
-            HideCalculations = Visibility.Hidden;
-            Items = ManageData.GetRowsData();
-            ManageData.UpdateCalculations();
+            NumberOfColumns = 11;
+            NumberOfRows = 1;
+            inputCorrect = true;
+            InitializeMatrix();
+
             Model = (ManageInformationModel)BaseModel;
         }
+        public void InitializeMatrix()
+        {
+            Items = new ObservableCollection<ObservableCollection<string>>();
+
+            for (int i = 0; i < NumberOfRows; i++)
+            {
+                var row = new ObservableCollection<string>();
+                for (int j = 0; j < NumberOfColumns; j++)
+                {
+                    row.Add("0"); // Initialize with some default values
+                }
+                Items.Add(row);
+            }
+        }
+
 
         #endregion
 
@@ -106,7 +131,6 @@ namespace ManageInfo_Windows
         #endregion
 
         #region COMMANDS
-        public ICommand SetCalculationsVisibility { get; set; }
         public ICommand ImportExcelCommand { get; set; }
         public ICommand ExportExcelCommand { get; set; }
         public ICommand AddRowCommand { get; set; }
@@ -115,7 +139,7 @@ namespace ManageInfo_Windows
 
         private protected override void RunAction(Window window)
         {
-            Model.RowData = ManageData.RowDataToStringLists();
+            Model.RowData = Items.Select(x => x.ToList()).ToList();
 
             Model.Run();
             CloseAction(window);
@@ -143,11 +167,11 @@ namespace ManageInfo_Windows
             if (success == true)
             {
                 string pathName = openFileDialog.FileName;
-                List<List<string>> readData =  ExcelUtils.ExcelToRowData(pathName);
-                List<RowData> rowsToAdd = ManageData.StringListsToRowData(readData);
-                foreach (RowData row in rowsToAdd)
+                ObservableCollection<ObservableCollection<string>> readData =  ExcelUtils.ExcelToRowData(pathName);
+                foreach (ObservableCollection<string> row in readData)
                 { 
-                    ManageData.AddRowData(row);
+                    Items.Add(row);
+                    NumberOfRows++;
                 }
             }
             else
@@ -174,40 +198,40 @@ namespace ManageInfo_Windows
                 filePath = filePath.Replace("\\", "/");
                 
                 // Write data to excel file
-                List<List<string>> rowDataConverted = ManageData.RowDataToStringLists();
-                ExcelUtils.RowDataToExcel(filePath, rowDataConverted);
+                ExcelUtils.RowDataToExcel(filePath, Items);
             }
         }
 
         private void AddRowDataAction()
         {
-            ManageData.AddRowData(new RowData());
-            ManageData.UpdateCalculations();
-        }
-
-        private void SetCalculationsVisibilityAction()
-        {
-            if (HideCalculations == Visibility.Visible)
-            {
-                HideCalculations = Visibility.Hidden;
-            }
-            else
-            { 
-                HideCalculations = Visibility.Visible;
-            }
+            ObservableCollection<string> blankRow = 
+                new ObservableCollection<string>();
+            Items.Add(blankRow);
+            NumberOfRows++;
         }
 
         private void DeleteRowDataAction()
         {
-            ManageData.DeleteRowData(SelectedIndex);
+            if (SelectedIndex >= 0 && SelectedIndex < NumberOfRows)
+            { 
+                if (null != Items && Items?.Count != 0)
+                { 
+                    Items.RemoveAt(SelectedIndex);
+                    NumberOfRows--;
+                }
+            }
         }
 
         private void CopyRowDataAction()
         {
-            RowData rowData = ManageData.GetRowDataAtIndex(SelectedIndex);
-            if (null != rowData)
-            { 
-                ManageData.AddRowData(rowData);
+            if (null != Items && Items?.Count != 0) 
+            {
+                if (SelectedIndex >= 0 && SelectedIndex < NumberOfRows)
+                { 
+                    ObservableCollection<string> rowData = Items[SelectedIndex];
+                    Items.Add(rowData);
+                    NumberOfRows++;
+                }
             }
         }
 
