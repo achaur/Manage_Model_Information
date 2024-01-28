@@ -11,10 +11,10 @@ namespace ManageInfo_Utils
 {
     public class ExcelUtils
     {
-        public static ObservableCollection<ObservableCollection<string>> ExcelToRowData(string filePath)
+        public static ObservableCollection<ObservableCollection<int>> ExcelToRowData(string filePath)
         {
-            ObservableCollection<ObservableCollection<string>> data = 
-                new ObservableCollection<ObservableCollection<string>>();
+            ObservableCollection<ObservableCollection<int>> data = 
+                new ObservableCollection<ObservableCollection<int>>();
 
             using (TextFieldParser parser = new TextFieldParser(filePath))
             {
@@ -29,8 +29,16 @@ namespace ManageInfo_Utils
                     // Convert the array of strings to a list and add to the result
                     if (fields != null)
                     {
-                        ObservableCollection<string> row = new ObservableCollection<string>(fields);
-                        data.Add(row);
+                        //read only first 6 columns of row
+                        ObservableCollection<int> rowFiltered = new ObservableCollection<int>();
+                        for (int i = 0; i < fields.Count() && i < 6; i++)
+                        {
+                            int number;
+                            bool success = int.TryParse(fields[i], out number);
+                            if (success)
+                                rowFiltered.Add(number);
+                        }
+                        data.Add(rowFiltered);
                     }
                 }
             }
@@ -38,13 +46,13 @@ namespace ManageInfo_Utils
             return data;
         }
         public static void RowDataToExcel(string filePath, 
-            ObservableCollection<ObservableCollection<string>> rowData)
+            ObservableCollection<ObservableCollection<int>> rowData)
         {
             try
             {
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    foreach (ObservableCollection<string> row in rowData)
+                    foreach (ObservableCollection<int> row in rowData)
                     {
                         // Join the elements of the row with commas and write to the file
                         writer.WriteLine(string.Join(",", row));

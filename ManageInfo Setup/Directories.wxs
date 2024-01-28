@@ -7,10 +7,7 @@
 				<Directory Id="AutodeskFolder" Name="Autodesk">
 					<Directory Id="RevitFolder" Name="Revit">
 						<Directory Id="AddinsFolder" Name="Addins">
-							<Directory Id="versionFolder" Name="$(var.Configuration)">
-								<Directory Id="INSTALLFOLDER" Name="RD">
-								</Directory>
-							</Directory>
+							<Directory Id="INSTALLFOLDER" Name="$(var.Configuration)"/>
 						</Directory>
 					</Directory>
 				</Directory>

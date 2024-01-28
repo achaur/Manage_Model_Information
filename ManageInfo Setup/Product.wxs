@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-
 	<!-- Сhange ProductCode for creating major upgrade! -->
 	<?if $(var.Configuration)=2020 ?>
-	<?define ProductCode = "{C67F192E-0625-48BC-AFF5-3E940125A8B5}"?>
+	<?define ProductCode = "{F9059F68-ADCD-4649-8C8C-BE46918A3052}"?>
 	<?endif?>
 	<?if $(var.Configuration)=2021 ?>
-	<?define ProductCode = "{9FF7E7A5-AF7E-4E1E-B480-4CB63286D7CD}"?>
+	<?define ProductCode = "{684F1781-B3CC-4D31-A99F-ED5DE2C294ED}"?>
 	<?endif?>
 	<?if $(var.Configuration)=2022 ?>
-	<?define ProductCode = "{86577E70-88C6-42FC-B607-49D426C8E775}"?>
+	<?define ProductCode = "{4D1ACE12-CF2E-4ACB-9303-3F5461A93D86}"?>
 	<?endif?>
 	<?if $(var.Configuration)=2023 ?>
 	<?define ProductCode = "{57FCA357-81BA-412A-8989-D5D2872B2565}"?>
 	<?endif?>
 
 	<!-- Do not change! Must be the same in all versions -->
-	<?define UpgradeCode = "{FFF884EB-714A-4364-8752-15CD162EC18A}"?>
+	<?define UpgradeCode = "{0D81F7E6-1F3E-49A6-B903-7CA1D17AE917}"?>
 
 	<!-- Some info -->
 	<?define Company = "Company Name"?>
@@ -24,8 +23,8 @@
 	<?define Keywords = "revit, addin, plugin"?>
 	<?define Comments = "Developed in 2024 to make work easy"?>
 	
-	<Product Id="{A2A0CE2C-14CA-432B-90F6-4873FAD67762}"
-			 Name="ManageInfo Setup $(var.Configuration)" 
+	<Product Id="{7FE54430-6609-4B19-AEF9-C1CA123EF251}"
+			 Name="ManageInfo Setup 2022" 
 			 Language="1033" 
 			 Version="1.0.0.0" 
 			 Manufacturer="Company" 
@@ -35,7 +34,7 @@
 				 Compressed="yes"
 				 InstallScope="perMachine"
 				 Manufacturer="$(var.Company)"
-				 Description="https://revitdynamo.com/"
+				 Description="Manage and Update Revit Information"
 				 Keywords="$(var.Keywords)"
 				 Comments="$(var.Comments)"
 				 />
@@ -48,30 +47,11 @@
 		<MediaTemplate
 			EmbedCab="yes"
 			/>
-		<!-- Icon of the installer 
-		-->
-		<Icon Id="icon.ico" 
-			  SourceFile="$(var.ManageInfo Resources.ProjectDir)\rdIcon.ico" />
-		<Property Id="ARPPRODUCTICON">icon.ico</Property>
-		<Property Id="ARPURLINFOABOUT">https://revitdynamo.com/</Property>
-		<Property Id="ARPHELPLINK" Value="https://revitdynamo.com/" />
-
-		<!-- Basic UI -->
-		<UIRef Id="WixUI_Minimal" />
-		<!-- Left image -->
-		<WixVariable Id="WixUIDialogBmp" Value="$(var.ProjectDir)\Assets\Background.bmp" />
-		<!-- Banner image -->
-		<WixVariable Id="WixUIBannerBmp" Value="$(var.ProjectDir)\Assets\Banner.bmp" />
-		<!-- Agreement -->
-		<WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\Agreement.rtf" />
-
+		
 		<Feature Id="ProductFeature" 
 				 Title="ManageInfo Setup" 
 				 Level="1">
-			<!--
-			-->
 			<ComponentGroupRef Id="PublishedComponents" />
-			<ComponentGroupRef Id="ProductComponentsAddin"/>
 		</Feature>
 	</Product>
 </Wix>

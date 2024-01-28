@@ -62,8 +62,6 @@ namespace ManageInfo_Core
                 ShowResultDialog();
                 return;
             }
-            if (_result.Report != null)
-                ShowResultReport();
         }
 
         private void ShowResultDialog()
@@ -76,14 +74,5 @@ namespace ManageInfo_Core
             form.ShowDialog();
         }
 
-        private void ShowResultReport()
-        {
-            // ViewModel
-            ReportViewModel formReportVM = new ReportViewModel(_result.Report);
-
-            // View
-            ReportForm formReport = new ReportForm() { DataContext = formReportVM };
-            formReport.ShowDialog();
-        }
     }
 }

@@ -35,12 +35,14 @@ namespace ManageInfo_Windows
             set { _model = value; }
         }
 
-        private ObservableCollection<ObservableCollection<string>> items;
-        public ObservableCollection<ObservableCollection<string>> Items
+        private ObservableCollection<ObservableCollection<int>> items;
+        public ObservableCollection<ObservableCollection<int>> Items
         {
             get { return items; }
-            set {
+            set 
+            {
                 items = value;
+                CheckInput();
                 OnPropertyChanged(nameof(Items));
             }
         }
@@ -78,6 +80,16 @@ namespace ManageInfo_Windows
             }
         }
 
+        private string errorMessage;
+
+        public string ErrorMessage
+        {
+            get { return errorMessage; }
+            set {
+                errorMessage = value;
+                OnPropertyChanged(nameof(ErrorMessage));
+            }
+        }
         #endregion
 
         public ManageInformationViewModel()
@@ -98,33 +110,34 @@ namespace ManageInfo_Windows
             NumberOfRows = 1;
             inputCorrect = true;
             InitializeMatrix();
-
+            ErrorMessage = "";
             Model = (ManageInformationModel)BaseModel;
         }
         public void InitializeMatrix()
         {
-            Items = new ObservableCollection<ObservableCollection<string>>();
-
-            for (int i = 0; i < NumberOfRows; i++)
-            {
-                var row = new ObservableCollection<string>();
-                for (int j = 0; j < NumberOfColumns; j++)
-                {
-                    row.Add("0"); // Initialize with some default values
-                }
-                Items.Add(row);
-            }
+            Items = new ObservableCollection<ObservableCollection<int>>();
+            CreateDefaultRow();
         }
-
 
         #endregion
 
         #region VALIDATION
 
-        private bool CheckInput()
+        private void CheckInput()
         {
-
-            return false;
+            foreach (ObservableCollection<int> row in Items)
+            {
+                foreach (int cell in row)
+                {
+                    if (cell > 1000)
+                    {
+                        InputCorrect = false;
+                        ErrorMessage = "Entered Value Exceedes Limit";
+                    }
+                }
+            }
+            InputCorrect = true;
+            ErrorMessage = "";
         }
 
         #endregion
@@ -166,9 +179,9 @@ namespace ManageInfo_Windows
             if (success == true)
             {
                 string pathName = openFileDialog.FileName;
-                ObservableCollection<ObservableCollection<string>> readData =  ExcelUtils.ExcelToRowData(pathName);
-                foreach (ObservableCollection<string> row in readData)
-                { 
+                ObservableCollection<ObservableCollection<int>> readData = ExcelUtils.ExcelToRowData(pathName);
+                foreach (ObservableCollection<int> row in readData)
+                {
                     Items.Add(row);
                     NumberOfRows++;
                 }
@@ -195,7 +208,7 @@ namespace ManageInfo_Windows
             {
                 string filePath = saveFileDialog.FileName;
                 filePath = filePath.Replace("\\", "/");
-                
+
                 // Write data to excel file
                 ExcelUtils.RowDataToExcel(filePath, Items);
             }
@@ -203,19 +216,29 @@ namespace ManageInfo_Windows
 
         private void AddRowDataAction()
         {
-            ObservableCollection<string> defaultRow = CreateDefaultRow();
-            Items.Add(defaultRow);
+            CreateDefaultRow();
             NumberOfRows++;
         }
 
-        public ObservableCollection<string> CreateDefaultRow()
+        public void CreateDefaultRow()
         {
-            ObservableCollection<string> defaultRow = new ObservableCollection<string>();
+            ObservableCollection<int> defaultRow = new ObservableCollection<int>();
             for (int i = 0; i < NumberOfColumns; i++)
             {
-                defaultRow.Add("0");
+                defaultRow.Add(0);
             }
-            return defaultRow;
+            Items.Add(defaultRow);
+        }
+
+        public void FillCalculationFields()
+        {
+            for (int i = 0; i < NumberOfRows; i++)
+            {
+                for (int j = 6; j < NumberOfColumns; j++)
+                {
+                    Items[i][j] = Items[i][j - 5] * 2;
+                }
+            }
         }
 
         private void DeleteRowDataAction()
@@ -226,6 +249,9 @@ namespace ManageInfo_Windows
                 { 
                     Items.RemoveAt(SelectedIndex);
                     NumberOfRows--;
+
+                    if (numberOfRows > 0)
+                        SelectedIndex = 0;
                 }
             }
         }
@@ -236,13 +262,12 @@ namespace ManageInfo_Windows
             {
                 if (SelectedIndex >= 0 && SelectedIndex < NumberOfRows)
                 { 
-                    ObservableCollection<string> rowData = Items[SelectedIndex];
+                    ObservableCollection<int> rowData = Items[SelectedIndex];
                     Items.Add(rowData);
                     NumberOfRows++;
                 }
             }
         }
-
         #endregion
     }
 }

@@ -75,7 +75,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResourceAssembly.cs" />
     <Compile Include="ResourceImage.cs" />
-    <Compile Include="ResourceSound.cs" />
     <None Include="VersionHandler.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -93,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\Icons\family_base_points.png" />
-    <Content Include="rdIcon.ico" />
     <Content Include="VersionHandler.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>VersionHandler.cs</LastGenOutput>

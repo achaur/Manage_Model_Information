@@ -44,6 +44,8 @@ namespace ManageInfo
                 {
                     //retrieve value of key shared parameter of the conduit
 
+                    //retrieve all elements of electricity network modified conduit belongs to
+
                     //set values to other shared parameters of conduit according to key ID
                     TaskDialog dialog = new TaskDialog("Conduit Changed")
                     {

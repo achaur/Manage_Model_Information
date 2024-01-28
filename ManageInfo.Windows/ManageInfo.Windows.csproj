@@ -130,7 +130,6 @@
     <Compile Include="Converters\MultivalueTextBoxesConverter.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\ManageInformationViewModel.cs" />
-    <Compile Include="ViewModels\ReportViewModel.cs" />
     <Compile Include="ViewModels\ResultViewModel.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\ManageInformationForm.xaml.cs">
@@ -139,9 +138,6 @@
     <Compile Include="Converters\MultivalueBoolConverter.cs" />
     <Compile Include="Views\ResultForm.xaml.cs">
       <DependentUpon>ResultForm.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ReportForm.xaml.cs">
-      <DependentUpon>ReportForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Converters\MultivalueBoolInvertConverter.cs" />
     <Page Include="Fonts.xaml">
@@ -152,15 +148,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Styles\ListView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Styles\Window.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Styles\TabControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -169,10 +157,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Styles\GroupBox.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Styles\ComboBox.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -192,10 +176,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Styles\RadioButton.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Styles\TextBlock.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -205,10 +185,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\ManageInformationForm.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\ReportForm.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

@@ -20,7 +20,7 @@ namespace ManageInfo_Logic
     {
         #region PROPERTIES
 
-        public List<List<string>> RowData { get; set; }
+        public List<List<int>> RowData { get; set; }
 
         #endregion
 
@@ -50,7 +50,7 @@ namespace ManageInfo_Logic
                                                 // get the field from the schema
             Field fieldSpliceLocation = schema.GetField(schemaName);
             // set the value for this entity
-            entity.Set<string>(fieldSpliceLocation, "g", UnitTypeId.Meters);
+            entity.Set<string>(fieldSpliceLocation, RowData.ToString(), UnitTypeId.Meters);
 
             Element elementToAssociateWithData = 
                 ManageExtensibleStorageUtils.GetELementAssociatedWithData(Doc);

@@ -6,7 +6,7 @@
     <ProductVersion>3.10</ProductVersion>
     <ProjectGuid>b27d10b0-6fbd-4add-8ca9-4b41d67f0c81</ProjectGuid>
     <SchemaVersion>2.0</SchemaVersion>
-    <OutputName>ManageInfo Setup  %24%28Configuration%29</OutputName>
+    <OutputName>ManageInfo Setup $(Configuration)</OutputName>
     <OutputType>Package</OutputType>
     <Name>ManageInfo Setup</Name>
   </PropertyGroup>
@@ -27,7 +27,6 @@
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Components.wxs" />
     <Compile Include="ComponentsGenerated.wxs" />
     <Compile Include="Directories.wxs" />
     <Compile Include="Product.wxs" />
@@ -55,23 +54,13 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RD Resources\ManageInfo.Resources.csproj">
-      <Name>ManageInfo.Resources</Name>
-      <Project>{2f6cf1c2-84b4-4342-895d-277c481dcdd1}</Project>
-      <Private>True</Private>
-      <DoNotHarvest>True</DoNotHarvest>
-      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
-      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(WixTargetsPath)" Condition=" '$(WixTargetsPath)' != '' " />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets" Condition=" '$(WixTargetsPath)' == '' AND Exists('$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets') " />
   <Target Name="EnsureWixToolsetInstalled" Condition=" '$(WixTargetsImported)' != 'true' ">
     <Error Text="The WiX Toolset v3.11 (or newer) build tools must be installed to build this project. To download the WiX Toolset, see http://wixtoolset.org/releases/" />
   </Target>
   <Target Name="BeforeBuild">
-    <GetAssemblyIdentity AssemblyFiles="..\Output\$(Configuration)\RD.dll">
+    <GetAssemblyIdentity AssemblyFiles="..\Output\$(Configuration)\ManageInfo.dll">
       <Output TaskParameter="Assemblies" ItemName="AssemblyVersion" />
     </GetAssemblyIdentity>
     <PropertyGroup>
@@ -88,12 +77,4 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\WiX.3.11.2\build\wix.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WiX.3.11.2\build\wix.props'))" />
   </Target>
-  <!--
-	To modify your build process, add your task inside one of the targets below and uncomment it.
-	Other similar extension points exist, see Wix.targets.
-	<Target Name="BeforeBuild">
-	</Target>
-	<Target Name="AfterBuild">
-	</Target>
-	-->
 </Project>

@@ -123,9 +123,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Revit\RevitPulldownButton.cs" />
     <Compile Include="Revit\RevitPushButton.cs" />
-    <Compile Include="Revit\RevitPulldownButtonDataModel.cs" />
     <Compile Include="Revit\RevitPushButtonDataModel.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
