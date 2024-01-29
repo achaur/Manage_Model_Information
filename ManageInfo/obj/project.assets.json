@@ -508,11 +508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\ManageInfo.csproj",
+      "projectUniqueName": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo\\ManageInfo.csproj",
       "projectName": "ManageInfo",
-      "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\ManageInfo.csproj",
+      "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo\\ManageInfo.csproj",
       "packagesPath": "C:\\Users\\a.chaur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo\\obj\\",
+      "outputPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -529,11 +529,11 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj": {
-              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.Core\\ManageInfo.Core.csproj"
+            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo.Core\\ManageInfo.Core.csproj": {
+              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo.Core\\ManageInfo.Core.csproj"
             },
-            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj": {
-              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Fill-and-Update-Model-Info\\ManageInfo.UI\\ManageInfo.UI.csproj"
+            "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo.UI\\ManageInfo.UI.csproj": {
+              "projectPath": "C:\\Users\\a.chaur\\source\\repos\\fill_update_info_revit\\Manage_Model_Information\\ManageInfo.UI\\ManageInfo.UI.csproj"
             }
           }
         }

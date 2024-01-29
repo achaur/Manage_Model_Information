@@ -1,10 +1,12 @@
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Setup\bin\2022\ManageInfo Setup  $(Configuration).msi
 C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\RD Setup\bin\2022\ManageInfo Setup  $(Configuration).wixpdb
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo Setup\bin\2022\ManageInfo Setup 2022.msi
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo Setup\bin\2022\ManageInfo Setup 2022.wixpdb
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Manage_Model_Information\ManageInfo Setup\bin\2022\ManageInfo Setup 2022.msi
+C:\Users\a.chaur\source\repos\fill_update_info_revit\Manage_Model_Information\ManageInfo Setup\bin\2022\ManageInfo Setup 2022.wixpdb
 obj\2022\ComponentsGenerated.wixobj
 obj\2022\Directories.wixobj
 obj\2022\Product.wixobj
 obj\2022\ManageInfo Setup.wixproj.BindContentsFileListnull.txt
 obj\2022\ManageInfo Setup.wixproj.BindOutputsFileListnull.txt
 obj\2022\ManageInfo Setup.wixproj.BindBuiltOutputsFileListnull.txt
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo Setup\bin\2022\ManageInfo Setup 2022.msi
-C:\Users\a.chaur\source\repos\fill_update_info_revit\Fill-and-Update-Model-Info\ManageInfo Setup\bin\2022\ManageInfo Setup 2022.wixpdb
