@@ -102,6 +102,8 @@
 
             <Grid Grid.Row="2">
                 <DataGrid x:Name="datagridReport"
+                              CellEditEnding="datagridReport_CellEditEnding"
+                              RowEditEnding="datagridReport_RowEditEnding"
                               CanUserAddRows="False"
                               AutoGenerateColumns="false"
                               SelectedIndex="{Binding SelectedIndex, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
@@ -110,23 +112,83 @@
                               Margin="18,0"
                               Style="{StaticResource SDataGridSimple}">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ID"       Binding="{Binding [0], Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="Column 1" Binding="{Binding [1], Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="Column 2" Binding="{Binding [2], Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="Column 3" Binding="{Binding [3], Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="Column 4" Binding="{Binding [4], Mode=TwoWay}"/>
-                        <DataGridTextColumn Header="Column 5" Binding="{Binding [5], Mode=TwoWay}"/>
-                        <DataGridTextColumn x:Name="CalculationColumn1"
-                                            Header="Calculated 1" Binding="{Binding [6], Mode=TwoWay}">
+                        <DataGridTextColumn Header="ID" Binding="{Binding [0], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                         </DataGridTextColumn>
-                        <DataGridTextColumn x:Name="CalculationColumn2"
-                                            Header="Calculated 2" Binding="{Binding [7], Mode=TwoWay}"/>
-                        <DataGridTextColumn x:Name="CalculationColumn3" 
-                            Header="Calculated 3" Binding="{Binding [8], Mode=TwoWay}"/>
-                        <DataGridTextColumn x:Name="CalculationColumn4" 
-                            Header="Calculated 4" Binding="{Binding [9], Mode=TwoWay}"/>
-                        <DataGridTextColumn x:Name="CalculationColumn5"
-                            Header="Calculated 5" Binding="{Binding [10], Mode=TwoWay}"/>
+                        <DataGridTextColumn Header="Column 1" Binding="{Binding [1], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [1], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Column 2" Binding="{Binding [2], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [2], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Column 3" Binding="{Binding [3], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [3], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Column 4" Binding="{Binding [4], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [4], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Column 5" Binding="{Binding [5], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [5], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn x:Name="CalculationColumn1" IsReadOnly="true"
+                                            Header="Calculated 1" Binding="{Binding [6], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [6], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn x:Name="CalculationColumn2" IsReadOnly="true"
+                                            Header="Calculated 2" Binding="{Binding [7], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [7], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn x:Name="CalculationColumn3" IsReadOnly="true"
+                            Header="Calculated 3" Binding="{Binding [8], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [8], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn x:Name="CalculationColumn4" IsReadOnly="true"
+                            Header="Calculated 4" Binding="{Binding [9], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [9], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn x:Name="CalculationColumn5" IsReadOnly="true"
+                            Header="Calculated 5" Binding="{Binding [10], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [10], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>

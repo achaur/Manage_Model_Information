@@ -9,6 +9,9 @@ using System.Collections.ObjectModel;
 using ManageInfo_Utils;
 using System.Windows.Forms;
 using System.Linq;
+using Autodesk.Revit.DB.Mechanical;
+using System.Globalization;
+using Autodesk.Revit.DB;
 
 namespace ManageInfo_Windows
 {
@@ -38,11 +41,14 @@ namespace ManageInfo_Windows
         private ObservableCollection<ObservableCollection<int>> items;
         public ObservableCollection<ObservableCollection<int>> Items
         {
-            get { return items; }
+            get 
+            { 
+
+                return items; 
+            }
             set 
             {
                 items = value;
-                CheckInput();
                 OnPropertyChanged(nameof(Items));
             }
         }
@@ -54,6 +60,14 @@ namespace ManageInfo_Windows
             set
             {
                 inputCorrect = value;
+                if (value == false)
+                {
+                    ErrorMessage = "One of the values is not within a range (0;100)";
+                }
+                else
+                { 
+                    ErrorMessage = string.Empty;
+                }
                 OnPropertyChanged(nameof(InputCorrect));
             }
         }
@@ -76,6 +90,10 @@ namespace ManageInfo_Windows
             set
             {
                 numberOfRows = value;
+                if (numberOfRows == 0)
+                    ErrorMessage = "Table is empty";
+                else
+                    ErrorMessage = string.Empty;
                 OnPropertyChanged(nameof(NumberOfRows));
             }
         }
@@ -92,6 +110,7 @@ namespace ManageInfo_Windows
         }
         #endregion
 
+        #region METHODS
         public ManageInformationViewModel()
         {
             RunCommand = new CommandWindow(RunAction);
@@ -103,43 +122,15 @@ namespace ManageInfo_Windows
             CopyRowCommand = new CommandGeneric(CopyRowDataAction);
         }
 
-        #region METHODS
         public override void SetInitialData()
         {
             NumberOfColumns = 11;
-            NumberOfRows = 1;
+            NumberOfRows = 2;
             inputCorrect = true;
             InitializeMatrix();
             ErrorMessage = "";
             Model = (ManageInformationModel)BaseModel;
         }
-        public void InitializeMatrix()
-        {
-            Items = new ObservableCollection<ObservableCollection<int>>();
-            CreateDefaultRow();
-        }
-
-        #endregion
-
-        #region VALIDATION
-
-        private void CheckInput()
-        {
-            foreach (ObservableCollection<int> row in Items)
-            {
-                foreach (int cell in row)
-                {
-                    if (cell > 1000)
-                    {
-                        InputCorrect = false;
-                        ErrorMessage = "Entered Value Exceedes Limit";
-                    }
-                }
-            }
-            InputCorrect = true;
-            ErrorMessage = "";
-        }
-
         #endregion
 
         #region COMMANDS
@@ -182,9 +173,27 @@ namespace ManageInfo_Windows
                 ObservableCollection<ObservableCollection<int>> readData = ExcelUtils.ExcelToRowData(pathName);
                 foreach (ObservableCollection<int> row in readData)
                 {
-                    Items.Add(row);
+                    //initialize empty row
+                    ObservableCollection<int> rowWithCalculatedValues = new ObservableCollection<int>();
+                    for (int i = 0; i < NumberOfColumns; i++)
+                    {
+                        rowWithCalculatedValues.Add(0);
+                    }
+                    //fill row with imported values
+                    for (int i = 0; i < row.Count; i++)
+                    {
+                        rowWithCalculatedValues[i] = row[i];
+                    }
+                    //fill row with calculated values based on import
+                    for (int i = 1; i < row.Count && i + 5 < NumberOfColumns; i++)
+                    {
+                        rowWithCalculatedValues[i + 5] = row[i] * 2;
+                    }
+                    Items.Add(rowWithCalculatedValues);
                     NumberOfRows++;
                 }
+                UpdateMatrix();
+                InputCorrect = MatrixIsCorrect();
             }
             else
             {
@@ -217,28 +226,9 @@ namespace ManageInfo_Windows
         private void AddRowDataAction()
         {
             CreateDefaultRow();
+            UpdateMatrix();
+            InputCorrect = MatrixIsCorrect();
             NumberOfRows++;
-        }
-
-        public void CreateDefaultRow()
-        {
-            ObservableCollection<int> defaultRow = new ObservableCollection<int>();
-            for (int i = 0; i < NumberOfColumns; i++)
-            {
-                defaultRow.Add(0);
-            }
-            Items.Add(defaultRow);
-        }
-
-        public void FillCalculationFields()
-        {
-            for (int i = 0; i < NumberOfRows; i++)
-            {
-                for (int j = 6; j < NumberOfColumns; j++)
-                {
-                    Items[i][j] = Items[i][j - 5] * 2;
-                }
-            }
         }
 
         private void DeleteRowDataAction()
@@ -255,7 +245,30 @@ namespace ManageInfo_Windows
                 }
             }
         }
+        #endregion
 
+        #region MATRIX MANAGER
+        public bool MatrixIsCorrect()
+        {
+            for (int i = 0; i < Items.Count; i++)
+            {
+                ObservableCollection<int> row = Items[i];
+                for (int j = 1; j < NumberOfColumns; j++)
+                {
+                    int cell = row[j];
+                    if (!(cell < 100 && cell > 0))
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+        public void InitializeMatrix()
+        {
+            Items = new ObservableCollection<ObservableCollection<int>>();
+            CreateDefaultRow();
+        }
         private void CopyRowDataAction()
         {
             if (null != Items && Items?.Count != 0) 
@@ -265,9 +278,43 @@ namespace ManageInfo_Windows
                     ObservableCollection<int> rowData = Items[SelectedIndex];
                     Items.Add(rowData);
                     NumberOfRows++;
+                    UpdateMatrix();
+                    InputCorrect = MatrixIsCorrect();
                 }
             }
         }
+        public void CreateDefaultRow()
+        {
+            ObservableCollection<int> defaultRow = new ObservableCollection<int>();
+            for (int i = 0; i < NumberOfColumns; i++)
+            {
+                if (i > 5 && i < 11)
+                {
+                    defaultRow.Add(defaultRow[i - 5] * 2);
+                }
+                else
+                { 
+                    defaultRow.Add(1);
+                }
+            }
+            Items.Add(defaultRow);
+        }
+        public void UpdateMatrix()
+        {
+            for (int i = 0; i < Items.Count; i++)
+            {
+                ObservableCollection<int> column = Items[i];
+
+                for (int j = 0; j < column.Count; j++)
+                {
+                    if (j > 5 && j < 11)
+                    {
+                        column[j] = column[j - 5] * 2;
+                    }
+                }
+            }
+        }
+
         #endregion
     }
 }

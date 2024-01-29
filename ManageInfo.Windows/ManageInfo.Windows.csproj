@@ -128,7 +128,9 @@
     <Compile Include="Commands\CommandGeneric.cs" />
     <Compile Include="Commands\CommandWindow.cs" />
     <Compile Include="Converters\MultivalueTextBoxesConverter.cs" />
+    <Compile Include="Converters\NameToColorConverter.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\DataRow.cs" />
     <Compile Include="ViewModels\ManageInformationViewModel.cs" />
     <Compile Include="ViewModels\ResultViewModel.cs" />
     <Compile Include="Views\BaseView.cs" />

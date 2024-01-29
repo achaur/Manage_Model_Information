@@ -73,6 +73,5 @@ namespace ManageInfo_Core
             ResultForm form = new ResultForm() { DataContext = formVM };
             form.ShowDialog();
         }
-
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 
 namespace ManageInfo_Windows
 {
@@ -26,6 +27,24 @@ namespace ManageInfo_Windows
             CalculationColumn3.Visibility = System.Windows.Visibility.Visible;
             CalculationColumn4.Visibility = System.Windows.Visibility.Visible;
             CalculationColumn5.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void datagridReport_CellEditEnding(object sender, System.Windows.Controls.DataGridCellEditEndingEventArgs e)
+        {
+            if (DataContext is ManageInformationViewModel viewModel)
+            {
+                viewModel.UpdateMatrix();
+                viewModel.InputCorrect = viewModel.MatrixIsCorrect();
+            }
+        }
+
+        private void datagridReport_RowEditEnding(object sender, System.Windows.Controls.DataGridRowEditEndingEventArgs e)
+        {
+            if (DataContext is ManageInformationViewModel viewModel)
+            {
+                viewModel.UpdateMatrix();
+                viewModel.InputCorrect = viewModel.MatrixIsCorrect();
+            }
         }
     }
 }

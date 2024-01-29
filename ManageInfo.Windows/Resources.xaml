@@ -21,5 +21,6 @@
     <local:MultivalueErrorConverter  x:Key="MultivalueError" />
     <local:MultivalueBoolInvertConverter  x:Key="MultivalueBoolInvert" />
     <local:MultivalueTextBoxesConverter  x:Key="MultivalueTextBoxes" />
+    <local:NameToColorConverter x:Key="NameToColorConverter"/>
 
 </ResourceDictionary>

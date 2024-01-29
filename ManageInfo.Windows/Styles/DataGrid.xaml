@@ -126,9 +126,7 @@
                         <ScrollBar x:Name="PART_VerticalScrollBar" Value="{TemplateBinding VerticalOffset}"
                             Maximum="{TemplateBinding ScrollableHeight}"
                             ViewportSize="{TemplateBinding ViewportHeight}"
-                            Opacity="1" HorizontalAlignment="Left"
-                            
-                                   >
+                            Opacity="1" HorizontalAlignment="Left">
                         </ScrollBar>
                     </Grid>
                 </ControlTemplate>

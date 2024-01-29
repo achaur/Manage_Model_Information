@@ -37,6 +37,8 @@ namespace ManageInfo_Utils
                             bool success = int.TryParse(fields[i], out number);
                             if (success)
                                 rowFiltered.Add(number);
+                            else
+                                rowFiltered.Add(0);
                         }
                         data.Add(rowFiltered);
                     }
