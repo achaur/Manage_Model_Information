@@ -20,7 +20,7 @@ namespace ManageInfo_Logic
     {
         #region PROPERTIES
 
-        public List<List<int>> RowData { get; set; }
+        public List<List<string>> RowData { get; set; }
 
         #endregion
 
@@ -31,41 +31,50 @@ namespace ManageInfo_Logic
                 return;
 
             //associate retrieved information with project base point
-            Transaction createSchemaAndStoreData = new Transaction(Doc, "tCreateAndStore");
-            createSchemaAndStoreData.Start();
+            using (Transaction trans = new Transaction(Doc, "Create Sheets"))
+            {
+                trans.Start();
 
-            SchemaBuilder schemaBuilder =
-                    new SchemaBuilder(new Guid("971AFB6F-9A52-4DCD-BD99-B184AA12455F"));
-            schemaBuilder.SetReadAccessLevel(AccessLevel.Public); // allow anyone to read the object
-            schemaBuilder.SetWriteAccessLevel(AccessLevel.Public); // restrict writing to this vendor only
-            schemaBuilder.SetVendorId("ADSK"); // required because of restricted write-access
-            string schemaName = ManageExtensibleStorageUtils._schemaName;
-            schemaBuilder.SetSchemaName(schemaName);
+                FilteredElementCollector coll = new FilteredElementCollector(Doc).OfCategory(BuiltInCategory.OST_Sheets);
+                IList<Element> sheets = coll.ToElements();
 
-            // create a field to store a data
-            schemaBuilder.AddSimpleField(schemaName, typeof(string));
+                ElementCategoryFilter categoryFilter_block = new ElementCategoryFilter(BuiltInCategory.OST_TitleBlocks);
+                FilteredElementCollector collector = new FilteredElementCollector(Doc);
 
-            Schema schema = schemaBuilder.Finish(); // register the Schema object
-            Entity entity = new Entity(schema); // create an entity (object) for this schema (class)
-                                                // get the field from the schema
-            Field fieldSpliceLocation = schema.GetField(schemaName);
-            // set the value for this entity
-            entity.Set<string>(fieldSpliceLocation, RowData.ToString(), UnitTypeId.Meters);
+                Type type = collector.WherePasses(categoryFilter_block).GetType();
+                ElementId first_block = collector.FirstElementId();
 
-            Element elementToAssociateWithData = 
-                ManageExtensibleStorageUtils.GetELementAssociatedWithData(Doc);
+                foreach (List<string> sheetData in RowData)
+                {
+                    string number = sheetData[0];
+                    string name = sheetData[1];
 
-            //bind data with element that always exists in the project so the data is not lost
-            elementToAssociateWithData.SetEntity(entity); // store the entity in the element
+                    if (SheetAlreadyExists(sheets, number) != true)
+                    { 
+                        ViewSheet sht = ViewSheet.Create(Doc, first_block);
+                        sht.Name = name;
+                        sht.SheetNumber = number;
+                    }
+                }
+                trans.Commit();
+            }
+        }
 
-            // get the data back from the element
-            Entity retrievedEntity = elementToAssociateWithData.GetEntity(schema);
 
-            string retrievedData =
-                    retrievedEntity.Get<string>(schema.GetField(schemaName),
-                    UnitTypeId.Meters);
 
-            createSchemaAndStoreData.Commit();
+        public bool SheetAlreadyExists(IList<Element> sheets, string num_d)
+        {
+            foreach (Element e in sheets)
+            {
+                ViewSheet sh = e as ViewSheet;
+
+                if (sh.SheetNumber == num_d)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         #endregion

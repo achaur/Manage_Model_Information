@@ -10,7 +10,7 @@ namespace ManageInfo_Windows
             InitializeMaterialDesign();
             InitializeComponent();
         }
-
+        /*
         private void HideCalculationColumns(object sender, System.Windows.RoutedEventArgs e)
         {
             CalculationColumn1.Visibility = System.Windows.Visibility.Collapsed;
@@ -28,12 +28,11 @@ namespace ManageInfo_Windows
             CalculationColumn4.Visibility = System.Windows.Visibility.Visible;
             CalculationColumn5.Visibility = System.Windows.Visibility.Visible;
         }
-
+        */
         private void datagridReport_CellEditEnding(object sender, System.Windows.Controls.DataGridCellEditEndingEventArgs e)
         {
             if (DataContext is ManageInformationViewModel viewModel)
             {
-                viewModel.UpdateMatrix();
                 viewModel.InputCorrect = viewModel.MatrixIsCorrect();
             }
         }
@@ -42,7 +41,6 @@ namespace ManageInfo_Windows
         {
             if (DataContext is ManageInformationViewModel viewModel)
             {
-                viewModel.UpdateMatrix();
                 viewModel.InputCorrect = viewModel.MatrixIsCorrect();
             }
         }

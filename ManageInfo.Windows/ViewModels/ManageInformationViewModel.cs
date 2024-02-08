@@ -38,8 +38,8 @@ namespace ManageInfo_Windows
             set { _model = value; }
         }
 
-        private ObservableCollection<ObservableCollection<int>> items;
-        public ObservableCollection<ObservableCollection<int>> Items
+        private ObservableCollection<ObservableCollection<string>> items;
+        public ObservableCollection<ObservableCollection<string>> Items
         {
             get 
             { 
@@ -124,8 +124,8 @@ namespace ManageInfo_Windows
 
         public override void SetInitialData()
         {
-            NumberOfColumns = 11;
-            NumberOfRows = 2;
+            NumberOfColumns = 2;
+            NumberOfRows = 0;
             inputCorrect = true;
             InitializeMatrix();
             ErrorMessage = "";
@@ -143,8 +143,8 @@ namespace ManageInfo_Windows
         private protected override void RunAction(Window window)
         {
             Model.RowData = Items.Select(x => x.ToList()).ToList();
-
             Model.Run();
+
             CloseAction(window);
         }
 
@@ -162,37 +162,28 @@ namespace ManageInfo_Windows
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
                 Title = "Please select a folder...",
-                Filter = "csv Source Files | *.csv",
-                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                Filter = "xlsx Source Files | *.xlsx",
+                //InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
             };
             bool? success = openFileDialog.ShowDialog();
 
             if (success == true)
             {
                 string pathName = openFileDialog.FileName;
-                ObservableCollection<ObservableCollection<int>> readData = ExcelUtils.ExcelToRowData(pathName);
-                foreach (ObservableCollection<int> row in readData)
+                //ObservableCollection<ObservableCollection<string>> readData = ExcelUtils.ExcelToRowData(pathName);
+                ObservableCollection<ObservableCollection<string>> readData = ExcelUtils.ExcelToList(pathName);
+                foreach (ObservableCollection<string> row in readData)
                 {
                     //initialize empty row
-                    ObservableCollection<int> rowWithCalculatedValues = new ObservableCollection<int>();
-                    for (int i = 0; i < NumberOfColumns; i++)
-                    {
-                        rowWithCalculatedValues.Add(0);
-                    }
+                    ObservableCollection<string> rowWithCalculatedValues = new ObservableCollection<string>();
                     //fill row with imported values
                     for (int i = 0; i < row.Count; i++)
                     {
-                        rowWithCalculatedValues[i] = row[i];
-                    }
-                    //fill row with calculated values based on import
-                    for (int i = 1; i < row.Count && i + 5 < NumberOfColumns; i++)
-                    {
-                        rowWithCalculatedValues[i + 5] = row[i] * 2;
+                        rowWithCalculatedValues.Add(row[i]);
                     }
                     Items.Add(rowWithCalculatedValues);
                     NumberOfRows++;
                 }
-                UpdateMatrix();
                 InputCorrect = MatrixIsCorrect();
             }
             else
@@ -226,7 +217,6 @@ namespace ManageInfo_Windows
         private void AddRowDataAction()
         {
             CreateDefaultRow();
-            UpdateMatrix();
             InputCorrect = MatrixIsCorrect();
             NumberOfRows++;
         }
@@ -252,11 +242,11 @@ namespace ManageInfo_Windows
         {
             for (int i = 0; i < Items.Count; i++)
             {
-                ObservableCollection<int> row = Items[i];
-                for (int j = 1; j < NumberOfColumns; j++)
+                ObservableCollection<string> row = Items[i];
+                for (int j = 1; j < NumberOfColumns && j < row?.Count; j++)
                 {
-                    int cell = row[j];
-                    if (!(cell < 100 && cell > 0))
+                    string cell = row[j];
+                    if (!(null != cell && cell != string.Empty))
                     {
                         return false;
                     }
@@ -266,8 +256,8 @@ namespace ManageInfo_Windows
         }
         public void InitializeMatrix()
         {
-            Items = new ObservableCollection<ObservableCollection<int>>();
-            CreateDefaultRow();
+            Items = new ObservableCollection<ObservableCollection<string>>();
+            //CreateDefaultRow();
         }
         private void CopyRowDataAction()
         {
@@ -275,44 +265,21 @@ namespace ManageInfo_Windows
             {
                 if (SelectedIndex >= 0 && SelectedIndex < NumberOfRows)
                 { 
-                    ObservableCollection<int> rowData = Items[SelectedIndex];
+                    ObservableCollection<string> rowData = Items[SelectedIndex];
                     Items.Add(rowData);
                     NumberOfRows++;
-                    UpdateMatrix();
                     InputCorrect = MatrixIsCorrect();
                 }
             }
         }
         public void CreateDefaultRow()
         {
-            ObservableCollection<int> defaultRow = new ObservableCollection<int>();
-            for (int i = 0; i < NumberOfColumns; i++)
-            {
-                if (i > 5 && i < 11)
-                {
-                    defaultRow.Add(defaultRow[i - 5] * 2);
-                }
-                else
-                { 
-                    defaultRow.Add(1);
-                }
-            }
-            Items.Add(defaultRow);
-        }
-        public void UpdateMatrix()
-        {
-            for (int i = 0; i < Items.Count; i++)
-            {
-                ObservableCollection<int> column = Items[i];
+            ObservableCollection<string> defaultRow = new ObservableCollection<string>();
 
-                for (int j = 0; j < column.Count; j++)
-                {
-                    if (j > 5 && j < 11)
-                    {
-                        column[j] = column[j - 5] * 2;
-                    }
-                }
-            }
+            defaultRow.Add("Number");
+            defaultRow.Add("Name");
+
+            Items.Add(defaultRow);
         }
 
         #endregion

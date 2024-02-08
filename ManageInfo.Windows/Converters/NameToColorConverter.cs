@@ -14,9 +14,9 @@ namespace ManageInfo_Windows
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            int input = (int)value;
+            string input = (string)value;
 
-            if (!(input > 0 && input < 100))
+            if (null == input || input == string.Empty)
             {
                 return Brushes.Red;
             }

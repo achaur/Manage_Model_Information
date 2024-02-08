@@ -42,7 +42,7 @@
 
             <Grid Grid.Row="0">
                 <TextBlock
-                           Style="{StaticResource STextBlock}" Text="Manage Model Information" />
+                           Style="{StaticResource STextBlock}" Text="Manage Project Information" />
                 <Button x:Name="buttonCancel"
                         Command="{Binding CloseCommand, Mode=OneWay}"
                         CommandParameter="{Binding ElementName=ManageInformationWindow}"
@@ -77,15 +77,18 @@
                             Style="{StaticResource SButtonSelect}"
                             Command="{Binding AddRowCommand}"/>
                 </Grid>
+                    <!-- 
                 <Grid Grid.Column="3">
                     <CheckBox Style="{StaticResource SCheckBoxBold}"
                               Content="Hide Calculations"
                               ToolTip="Check to Hide Calculation Columns"
+
                               Checked="HideCalculationColumns"
                               Unchecked="UnHideCalculationColumns" 
                               HorizontalAlignment="Left"
                               VerticalAlignment="Center"/>
                 </Grid>
+                    -->
                 <Grid Grid.Column="0">
                     <Button x:Name="Import"
                             Content="Import"
@@ -112,15 +115,21 @@
                               Margin="18,0"
                               Style="{StaticResource SDataGridSimple}">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ID" Binding="{Binding [0], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <DataGridTextColumn Header="Number" Binding="{Binding [0], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Setter Property="BorderBrush" Value="{Binding [0], Converter={StaticResource NameToColorConverter}}"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
                         </DataGridTextColumn>
-                        <DataGridTextColumn Header="Column 1" Binding="{Binding [1], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <DataGridTextColumn Header="Name" Binding="{Binding [1], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                             <DataGridTextColumn.CellStyle>
                                 <Style TargetType="{x:Type DataGridCell}">
                                     <Setter Property="BorderBrush" Value="{Binding [1], Converter={StaticResource NameToColorConverter}}"/>
                                 </Style>
                             </DataGridTextColumn.CellStyle>
                         </DataGridTextColumn>
+                        <!--
                         <DataGridTextColumn Header="Column 2" Binding="{Binding [2], Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                             <DataGridTextColumn.CellStyle>
                                 <Style TargetType="{x:Type DataGridCell}">
@@ -189,6 +198,7 @@
                                 </Style>
                             </DataGridTextColumn.CellStyle>
                         </DataGridTextColumn>
+                        -->
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>
@@ -207,7 +217,7 @@
                     <Button x:Name="buttonSave"
                         Command="{Binding RunCommand}"
                         CommandParameter="{Binding ElementName=ManageInformationWindow}"
-                        Content="Save" ToolTip="Run"
+                        Content="Create" ToolTip="Run"
                         Style="{StaticResource SButtonSelect}"
                             IsEnabled="{Binding InputCorrect, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
                     </Button>
